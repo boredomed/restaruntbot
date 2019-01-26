@@ -1,0 +1,29 @@
+{
+  "states": [
+    "intent_greet", 
+    "intent_restaurant_search", 
+    "intent_name_search", 
+    "intent_affirm", 
+    "intent_goodbye", 
+    "entity_location", 
+    "entity_food", 
+    "entity_cuisine", 
+    "entity_r_name", 
+    "slot_cuisine_0", 
+    "slot_food_0", 
+    "slot_location_0", 
+    "slot_r_name_0", 
+    "prev_action_listen", 
+    "prev_action_restart", 
+    "prev_utter_greet", 
+    "prev_utter_affirm", 
+    "prev_utter_bye", 
+    "prev_utter_ask_location", 
+    "prev_action_default_fallback", 
+    "prev_action_check_restaurants", 
+    "prev_action_search_name", 
+    "prev_action_greet_info", 
+    "prev_utter_further_info", 
+    "prev_utter_after_loc"
+  ]
+}

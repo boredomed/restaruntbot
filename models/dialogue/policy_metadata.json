@@ -1,0 +1,36 @@
+{
+  "action_fingerprints": {
+    "utter_further_info": {
+      "slots": []
+    }, 
+    "utter_greet": {
+      "slots": []
+    }, 
+    "action_check_restaurants": {
+      "slots": []
+    }, 
+    "utter_bye": {
+      "slots": []
+    }, 
+    "action_listen": {
+      "slots": [
+        "food", 
+        "cuisine", 
+        "location", 
+        "r_name"
+      ]
+    }
+  }, 
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy", 
+    "rasa_core.policies.keras_policy.KerasPolicy", 
+    "rasa_core.policies.fallback.FallbackPolicy"
+  ], 
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble", 
+  "max_histories": [
+    5, 
+    5, 
+    null
+  ], 
+  "rasa_core": "0.9.7"
+}

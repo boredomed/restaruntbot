@@ -1,0 +1,56 @@
+intents:
+  - greet
+  - restaurant_search
+  - name_search
+  - affirm
+  - goodbye
+
+entities:
+- location
+- food
+- cuisine
+- r_name
+
+actions:
+- utter_greet
+- utter_affirm
+- utter_bye
+- utter_ask_location
+- action_default_fallback
+- bot.ActionCheckRestaurants
+- bot.ActionSearchName
+- bot.ActionGreetInfo
+- utter_further_info
+- utter_after_loc
+
+slots:
+   location:
+     type: text
+   food:
+     type: text
+   cuisine:
+     type: text
+   r_name:
+     type: text
+
+templates:
+   utter_greet:
+     - "Hello! Tell me how can i help you finding your desired restaurant"
+     - "Hy I am here to help you find the best restaurnant"
+     - "Hy there I can help you finding the rite restaurant How can i help ?"
+   utter_affirm:
+     - "Thanks for using"
+   utter_bye:
+     - "Goodbye"
+   utter_ask_location:
+     - "In which city you are?"
+     - "Kindly tell your current location ie City"
+     - "Can you tell your current City?"
+     - "Please tell the city where you are"
+   action_default_fallback:
+     - "I dont get it"
+   utter_further_info:
+     - "Kindly specify details if you want to search for some other restaurants"
+   utter_after_loc:
+     - "Which type of cuisine? eg labenese, chinese etc"
+     - "Which type of cuisine you are looking for? eg japenese, labenese etc"

@@ -1,0 +1,38 @@
+Failed to load any agent model. Running Rasa Core server with out loaded model now. [Errno 2] No such file or directory: 'models/dialogue/policy_metadata.json'
+[Errno 98] Address already in use: (u'0.0.0.0', 5005)
+Traceback (most recent call last):
+  File "/home/boredomed/.local/lib/python2.7/site-packages/rasa_core/server.py", line 429, in <module>
+    http_server.serve_forever()
+  File "/home/boredomed/.local/lib/python2.7/site-packages/gevent/baseserver.py", line 362, in serve_forever
+    self.start()
+  File "/home/boredomed/.local/lib/python2.7/site-packages/gevent/baseserver.py", line 306, in start
+    self.init_socket()
+  File "/home/boredomed/.local/lib/python2.7/site-packages/gevent/pywsgi.py", line 1486, in init_socket
+    StreamServer.init_socket(self)
+  File "/home/boredomed/.local/lib/python2.7/site-packages/gevent/server.py", line 146, in init_socket
+    self.socket = self.get_listener(self.address, self.backlog, self.family)
+  File "/home/boredomed/.local/lib/python2.7/site-packages/gevent/server.py", line 157, in get_listener
+    return _tcp_listener(address, backlog=backlog, reuse_addr=cls.reuse_addr, family=family)
+  File "/home/boredomed/.local/lib/python2.7/site-packages/gevent/server.py", line 256, in _tcp_listener
+    sock.bind(address)
+  File "<string>", line 1, in bind
+error: [Errno 98] Address already in use: (u'0.0.0.0', 5005)
+Failed to load any agent model. Running Rasa Core server with out loaded model now. [Errno 2] No such file or directory: 'models/dialogue/policy_metadata.json'
+[Errno 98] Address already in use: (u'0.0.0.0', 5005)
+Traceback (most recent call last):
+  File "/home/boredomed/.local/lib/python2.7/site-packages/rasa_core/server.py", line 429, in <module>
+    http_server.serve_forever()
+  File "/home/boredomed/.local/lib/python2.7/site-packages/gevent/baseserver.py", line 362, in serve_forever
+    self.start()
+  File "/home/boredomed/.local/lib/python2.7/site-packages/gevent/baseserver.py", line 306, in start
+    self.init_socket()
+  File "/home/boredomed/.local/lib/python2.7/site-packages/gevent/pywsgi.py", line 1486, in init_socket
+    StreamServer.init_socket(self)
+  File "/home/boredomed/.local/lib/python2.7/site-packages/gevent/server.py", line 146, in init_socket
+    self.socket = self.get_listener(self.address, self.backlog, self.family)
+  File "/home/boredomed/.local/lib/python2.7/site-packages/gevent/server.py", line 157, in get_listener
+    return _tcp_listener(address, backlog=backlog, reuse_addr=cls.reuse_addr, family=family)
+  File "/home/boredomed/.local/lib/python2.7/site-packages/gevent/server.py", line 256, in _tcp_listener
+    sock.bind(address)
+  File "<string>", line 1, in bind
+error: [Errno 98] Address already in use: (u'0.0.0.0', 5005)

@@ -1,0 +1,129 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/chatbot.css" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <script src="jquery.min.js"></script>
+    <script type="text/javascript" src="loader.js"></script>
+    <script type="text/javascript" src="js/utils.js"></script>
+    <script type="text/javascript" src="js/demo.js"></script>
+    <script type="text/javascript" src="js/jsonQ.min.js"></script>
+
+</head>
+
+<body>
+    <table class="microstrategy-band" style="width:100%">
+        <tr>
+            <td>
+                 <img src="image/Teradata-Logo.png" alt="MicroStrategy" style="margin-left:10px" height="50px"> 
+                <!-- <div class="logo">TERADATA</div> -->
+            </td>
+        </tr>
+    </table>
+
+
+
+<!-- Image loader -->
+<!-- <div id='loader'></div>  -->
+  <!-- Image loader -->
+
+
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p> Choose <b>attributes</b> from the cubes:</p>
+                        <ul class="object-list list-unstyled">
+                            <button class="btn btn-default" type="submit">Apply</button>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Choose <b>metrics</b> from the cubes:</p>
+                        <ul class="object-list list-unstyled">
+                            <button class="btn btn-default" type="submit">Apply</button>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-md-offset-9" style="display: inline;">
+                        <div class="checkbox" style="float: right;; margin-right: 15px">
+                            <label>
+                                <input type="checkbox" onchange="switchAutoloadMode(this)" value="" checked="checked">Auto-load</label>
+                        </div>
+                        <button id="apply-button" onclick="createReport()" class="btn btn-default" disabled="true"
+                                style="float: right; margin-right: 15px">Apply
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <ul class="pager">
+                <li><a href="javascript:navPrevious()" style="color:black; border: 0;" class="btn" id="previousB"><i
+                        class="fa fa-arrow-left fa-lg"></i> </a>
+                </li>
+                <li><a href="javascript:navNext()" style="color:black; border: 0;" class="btn" id="nextB"><i
+                        class="fa fa-arrow-right fa-lg"></i> </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="row" style="padding: 0px 15px 30px 15px">
+            <div id="table_div"></div>
+        </div>
+    </div> -->
+    <div id="chatbotWindow" class="chat_window">
+        <div class="top_menu">
+            <div class="buttons">
+                <!-- <div class="button close"></div>
+                <div class="button minimize"></div>
+                <div class="button maximize"></div> -->
+            </div>
+            <div class="title">Restaurant ChatBot</div>
+        </div>
+        <ul class="messages"></ul>
+        <div class="bottom_wrapper clearfix">
+            <div class="message_input_wrapper">
+                <input class="message_input" placeholder="Type your message here..." />
+            </div>
+            <div class="send_message">
+                <div class="icon"></div>
+                <div class="text">Send</div>
+            </div>
+        </div>
+    </div>
+    <div class="message_template">
+        <li class="message">
+            <div class="avatar"></div>
+            <div class="text_wrapper">
+                <div class="text"></div>
+            </div>
+        </li>
+    </div>
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        var demo = new demo();
+        var navPrevious = demo.navPrevious,
+            navNext = demo.navNext,
+            createReport = demo.createReport,
+            switchAutoloadMode = demo.switchAutoloadMode;
+
+        demo.start();
+        
+    </script>
+</body>
+
+</html>

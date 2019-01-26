@@ -1,0 +1,9008 @@
+{
+ "rasa_nlu_data": {
+  "regex_features": [],
+  "entity_synonyms": [],
+  "common_examples": [
+   {
+    "text": "are there malaysian restaurants in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 19,
+      "entity": "cuisine",
+      "start": 10,
+      "value": "malaysian"
+     },
+     {
+      "end": 43,
+      "entity": "location",
+      "start": 35,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "can i eat breakfast brunch in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "food",
+      "start": 10,
+      "value": "breakfast brunch"
+     },
+     {
+      "end": 38,
+      "entity": "location",
+      "start": 30,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "location of cake boutique close to lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "cake boutique"
+     },
+     {
+      "end": 43,
+      "entity": "location",
+      "start": 35,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "show address of dunkin donuts within rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 37,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "find address of macdonald chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 34,
+      "entity": "location",
+      "start": 26,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "coffee in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 6,
+      "entity": "food",
+      "start": 0,
+      "value": "coffee"
+     },
+     {
+      "end": 21,
+      "entity": "location",
+      "start": 10,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "tell location of dominos pizza in the area of toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 53,
+      "entity": "location",
+      "start": 46,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "find location of waterbean coffee in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 37,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "i need to get pizza in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 19,
+      "entity": "food",
+      "start": 14,
+      "value": "pizza"
+     },
+     {
+      "end": 30,
+      "entity": "location",
+      "start": 23,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "show me fast food places to eat in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 17,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "fast food"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 35,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "show address of dunkin donuts nearby toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 37,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "address of macdonald located at lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "r_name",
+      "start": 11,
+      "value": "macdonald"
+     },
+     {
+      "end": 40,
+      "entity": "location",
+      "start": 32,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "i want to buy tea in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 17,
+      "entity": "food",
+      "start": 14,
+      "value": "tea"
+     },
+     {
+      "end": 31,
+      "entity": "location",
+      "start": 21,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "tell location of cake boutique in the area of chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 54,
+      "entity": "location",
+      "start": 46,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "location of waterbean coffee located at pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "r_name",
+      "start": 12,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 50,
+      "entity": "location",
+      "start": 40,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "i need to chickenWings in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "food",
+      "start": 10,
+      "value": "chickenWings"
+     },
+     {
+      "end": 34,
+      "entity": "location",
+      "start": 26,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "tell address of dominos pizza close to rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 50,
+      "entity": "location",
+      "start": 39,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "find me japenese places to eat in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 16,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "japenese"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 34,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "show location of dominos pizza in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 34,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "get donuts in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 10,
+      "entity": "food",
+      "start": 4,
+      "value": "donuts"
+     },
+     {
+      "end": 22,
+      "entity": "location",
+      "start": 14,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "find address of macdonald lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 34,
+      "entity": "location",
+      "start": 26,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "tell location of cake boutique nearby toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 38,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "i want to eat breakfast and brunch in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "food",
+      "start": 14,
+      "value": "breakfast and brunch"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 38,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "tell me about middle eastern restaurants in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "cuisine",
+      "start": 14,
+      "value": "middle eastern"
+     },
+     {
+      "end": 55,
+      "entity": "location",
+      "start": 44,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "location of waterbean coffee close to pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "r_name",
+      "start": 12,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 38,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find address of dunkin donuts pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 40,
+      "entity": "location",
+      "start": 30,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "can i buy breakfast & brunch in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "food",
+      "start": 10,
+      "value": "breakfast & brunch"
+     },
+     {
+      "end": 39,
+      "entity": "location",
+      "start": 32,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "tell address of waterbean coffee in the area of chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "r_name",
+      "start": 16,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 56,
+      "entity": "location",
+      "start": 48,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "show location of dominos pizza nearby toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 38,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "i need to tea in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 13,
+      "entity": "food",
+      "start": 10,
+      "value": "tea"
+     },
+     {
+      "end": 27,
+      "entity": "location",
+      "start": 17,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find address of macdonald within lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 33,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "i need to go to tiwanese places to eat in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "cuisine",
+      "start": 16,
+      "value": "tiwanese"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 42,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "location of cake boutique located at rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "cake boutique"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 37,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "can i eat coffee in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 16,
+      "entity": "food",
+      "start": 10,
+      "value": "coffee"
+     },
+     {
+      "end": 28,
+      "entity": "location",
+      "start": 20,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "tell address of waterbean coffee in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "r_name",
+      "start": 16,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 36,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "show location of dunkin donuts within rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 38,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "i want to get donuts in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 14,
+      "value": "donuts"
+     },
+     {
+      "end": 32,
+      "entity": "location",
+      "start": 24,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "find location of cake boutique close to pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 50,
+      "entity": "location",
+      "start": 40,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "address of dominos pizza nearby toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "r_name",
+      "start": 11,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 39,
+      "entity": "location",
+      "start": 32,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "middle eastern restaurants in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 14,
+      "entity": "cuisine",
+      "start": 0,
+      "value": "middle eastern"
+     },
+     {
+      "end": 38,
+      "entity": "location",
+      "start": 30,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "tell location of macdonald located at chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "r_name",
+      "start": 17,
+      "value": "macdonald"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 38,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "buy breakfast and brunch in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "food",
+      "start": 4,
+      "value": "breakfast and brunch"
+     },
+     {
+      "end": 36,
+      "entity": "location",
+      "start": 28,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "find address of dunkin donuts chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 38,
+      "entity": "location",
+      "start": 30,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "show location of macdonald in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "r_name",
+      "start": 17,
+      "value": "macdonald"
+     },
+     {
+      "end": 40,
+      "entity": "location",
+      "start": 30,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "address of cake boutique in the area of rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "r_name",
+      "start": 11,
+      "value": "cake boutique"
+     },
+     {
+      "end": 51,
+      "entity": "location",
+      "start": 40,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "i need to go to tiwanese restaurants in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "cuisine",
+      "start": 16,
+      "value": "tiwanese"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 40,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "find address of dominos pizza in the area of toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 52,
+      "entity": "location",
+      "start": 45,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "can i eat chickenWings in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "food",
+      "start": 10,
+      "value": "chickenWings"
+     },
+     {
+      "end": 37,
+      "entity": "location",
+      "start": 26,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "show location of waterbean coffee within lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 41,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "location of macdonald nearby lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 21,
+      "entity": "r_name",
+      "start": 12,
+      "value": "macdonald"
+     },
+     {
+      "end": 37,
+      "entity": "location",
+      "start": 29,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "breakfast & brunch in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 18,
+      "entity": "food",
+      "start": 0,
+      "value": "breakfast & brunch"
+     },
+     {
+      "end": 32,
+      "entity": "location",
+      "start": 22,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "tell address of waterbean coffee close to pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "r_name",
+      "start": 16,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 52,
+      "entity": "location",
+      "start": 42,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "tell location of dominos pizza rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 31,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "show me malaysian places to eat in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 17,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "malaysian"
+     },
+     {
+      "end": 43,
+      "entity": "location",
+      "start": 35,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "i want to buy breakfast brunch in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "food",
+      "start": 14,
+      "value": "breakfast brunch"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 34,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "address of cake boutique in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "r_name",
+      "start": 11,
+      "value": "cake boutique"
+     },
+     {
+      "end": 35,
+      "entity": "location",
+      "start": 28,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "find address of dunkin donuts located at chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 41,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "show location of dominos pizza located at pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 52,
+      "entity": "location",
+      "start": 42,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "tell address of dunkin donuts in the area of chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 53,
+      "entity": "location",
+      "start": 45,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "show location of waterbean coffee nearby rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 52,
+      "entity": "location",
+      "start": 41,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "can i buy coffee in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 16,
+      "entity": "food",
+      "start": 10,
+      "value": "coffee"
+     },
+     {
+      "end": 28,
+      "entity": "location",
+      "start": 20,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "are there japenese places to eat in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 18,
+      "entity": "cuisine",
+      "start": 10,
+      "value": "japenese"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 36,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "address of macdonald in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "r_name",
+      "start": 11,
+      "value": "macdonald"
+     },
+     {
+      "end": 31,
+      "entity": "location",
+      "start": 24,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "find location of cake boutique close to lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 40,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "i want to get breakfast brunch in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "food",
+      "start": 14,
+      "value": "breakfast brunch"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 34,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "location of macdonald pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 21,
+      "entity": "r_name",
+      "start": 12,
+      "value": "macdonald"
+     },
+     {
+      "end": 32,
+      "entity": "location",
+      "start": 22,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find address of waterbean coffee within toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "r_name",
+      "start": 16,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 40,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "eat donuts in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 10,
+      "entity": "food",
+      "start": 4,
+      "value": "donuts"
+     },
+     {
+      "end": 25,
+      "entity": "location",
+      "start": 14,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "fast food restaurants in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 9,
+      "entity": "cuisine",
+      "start": 0,
+      "value": "fast food"
+     },
+     {
+      "end": 36,
+      "entity": "location",
+      "start": 25,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "tell address of dominos pizza lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 38,
+      "entity": "location",
+      "start": 30,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "show location of cake boutique in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 34,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "can i buy tea in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 13,
+      "entity": "food",
+      "start": 10,
+      "value": "tea"
+     },
+     {
+      "end": 25,
+      "entity": "location",
+      "start": 17,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "tell location of dunkin donuts nearby rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 38,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "show address of cake boutique located at toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 41,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "get pizza in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 9,
+      "entity": "food",
+      "start": 4,
+      "value": "pizza"
+     },
+     {
+      "end": 21,
+      "entity": "location",
+      "start": 13,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "find location of dominos pizza within lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 38,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "tell me about japenese places to eat in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "cuisine",
+      "start": 14,
+      "value": "japenese"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 40,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "address of waterbean coffee close to chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 27,
+      "entity": "r_name",
+      "start": 11,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 37,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "find address of dunkin donuts in the area of rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 56,
+      "entity": "location",
+      "start": 45,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "i need to breakfast and brunch in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "food",
+      "start": 10,
+      "value": "breakfast and brunch"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 34,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "location of macdonald nearby pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 21,
+      "entity": "r_name",
+      "start": 12,
+      "value": "macdonald"
+     },
+     {
+      "end": 39,
+      "entity": "location",
+      "start": 29,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "show location of waterbean coffee in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 37,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "i want to eat breakfast & brunch in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "food",
+      "start": 14,
+      "value": "breakfast & brunch"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 36,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "tell address of macdonald located at rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 37,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "find me middle eastern restaurants in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "middle eastern"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 38,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find address of dunkin donuts close to lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 39,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "chickenWings in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 12,
+      "entity": "food",
+      "start": 0,
+      "value": "chickenWings"
+     },
+     {
+      "end": 27,
+      "entity": "location",
+      "start": 16,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "show location of dominos pizza within pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 38,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "tell address of cake boutique toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 37,
+      "entity": "location",
+      "start": 30,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "can i eat tea in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 13,
+      "entity": "food",
+      "start": 10,
+      "value": "tea"
+     },
+     {
+      "end": 27,
+      "entity": "location",
+      "start": 17,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "location of dunkin donuts in the area of chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 41,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "tell me about tiwanese places to eat in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "cuisine",
+      "start": 14,
+      "value": "tiwanese"
+     },
+     {
+      "end": 51,
+      "entity": "location",
+      "start": 40,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "address of waterbean coffee located at toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 27,
+      "entity": "r_name",
+      "start": 11,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 39,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "i need to buy coffee in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 14,
+      "value": "coffee"
+     },
+     {
+      "end": 35,
+      "entity": "location",
+      "start": 24,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "show location of macdonald within pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "r_name",
+      "start": 17,
+      "value": "macdonald"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 34,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "tell address of cake boutique lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 38,
+      "entity": "location",
+      "start": 30,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "find location of dominos pizza close to rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 51,
+      "entity": "location",
+      "start": 40,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "i want to get breakfast and brunch in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "food",
+      "start": 14,
+      "value": "breakfast and brunch"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 38,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "address of dominos pizza in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "r_name",
+      "start": 11,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 39,
+      "entity": "location",
+      "start": 28,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "are there malaysian restaurants in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 19,
+      "entity": "cuisine",
+      "start": 10,
+      "value": "malaysian"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 35,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "find location of cake boutique in the area of lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 54,
+      "entity": "location",
+      "start": 46,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "i need to pizza in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 15,
+      "entity": "food",
+      "start": 10,
+      "value": "pizza"
+     },
+     {
+      "end": 27,
+      "entity": "location",
+      "start": 19,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "tell location of dunkin donuts nearby chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 38,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "show address of waterbean coffee located at toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "r_name",
+      "start": 16,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 51,
+      "entity": "location",
+      "start": 44,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "eat donuts in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 10,
+      "entity": "food",
+      "start": 4,
+      "value": "donuts"
+     },
+     {
+      "end": 22,
+      "entity": "location",
+      "start": 14,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "find address of macdonald in the area of pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 51,
+      "entity": "location",
+      "start": 41,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "show location of dominos pizza in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 34,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "find me fast food restaurants in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 17,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "fast food"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 33,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "i want to buy breakfast brunch in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "food",
+      "start": 14,
+      "value": "breakfast brunch"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 34,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "tell location of waterbean coffee nearby chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 41,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "address of macdonald close to pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "r_name",
+      "start": 11,
+      "value": "macdonald"
+     },
+     {
+      "end": 40,
+      "entity": "location",
+      "start": 30,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "can i get breakfast & brunch in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "food",
+      "start": 10,
+      "value": "breakfast & brunch"
+     },
+     {
+      "end": 40,
+      "entity": "location",
+      "start": 32,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "show location of cake boutique toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 38,
+      "entity": "location",
+      "start": 31,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "address of dunkin donuts within rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "r_name",
+      "start": 11,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 43,
+      "entity": "location",
+      "start": 32,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "can i buy coffee in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 16,
+      "entity": "food",
+      "start": 10,
+      "value": "coffee"
+     },
+     {
+      "end": 27,
+      "entity": "location",
+      "start": 20,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "tell address of macdonald chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 34,
+      "entity": "location",
+      "start": 26,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "tell location of dunkin donuts in the area of toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 53,
+      "entity": "location",
+      "start": 46,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "get tea in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 7,
+      "entity": "food",
+      "start": 4,
+      "value": "tea"
+     },
+     {
+      "end": 22,
+      "entity": "location",
+      "start": 11,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "show address of cake boutique located at pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 51,
+      "entity": "location",
+      "start": 41,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find location of waterbean coffee nearby lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 41,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "i need to breakfast and brunch in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "food",
+      "start": 10,
+      "value": "breakfast and brunch"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 34,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "middle eastern places to eat in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 14,
+      "entity": "cuisine",
+      "start": 0,
+      "value": "middle eastern"
+     },
+     {
+      "end": 40,
+      "entity": "location",
+      "start": 32,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "address of dominos pizza in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "r_name",
+      "start": 11,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 36,
+      "entity": "location",
+      "start": 28,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "find address of cake boutique within toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 37,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "i want to eat chickenWings in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "food",
+      "start": 14,
+      "value": "chickenWings"
+     },
+     {
+      "end": 38,
+      "entity": "location",
+      "start": 30,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "show location of dunkin donuts in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 34,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "tell location of waterbean coffee pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 34,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "i need to get donuts in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 14,
+      "value": "donuts"
+     },
+     {
+      "end": 34,
+      "entity": "location",
+      "start": 24,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "address of macdonald close to rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "r_name",
+      "start": 11,
+      "value": "macdonald"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 30,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "i need to go to tiwanese restaurants in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "cuisine",
+      "start": 16,
+      "value": "tiwanese"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 40,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "can i eat pizza in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 15,
+      "entity": "food",
+      "start": 10,
+      "value": "pizza"
+     },
+     {
+      "end": 27,
+      "entity": "location",
+      "start": 19,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "find location of waterbean coffee within lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 41,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "tell address of macdonald located at toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 37,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "show location of dunkin donuts nearby pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 38,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "breakfast brunch in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 16,
+      "entity": "food",
+      "start": 0,
+      "value": "breakfast brunch"
+     },
+     {
+      "end": 27,
+      "entity": "location",
+      "start": 20,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "malaysian restaurants in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 9,
+      "entity": "cuisine",
+      "start": 0,
+      "value": "malaysian"
+     },
+     {
+      "end": 36,
+      "entity": "location",
+      "start": 25,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "show location of dominos pizza nearby chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 38,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "tell address of dominos pizza close to chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 39,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "i want to buy breakfast & brunch in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "food",
+      "start": 14,
+      "value": "breakfast & brunch"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 36,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "find location of waterbean coffee in the area of pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 59,
+      "entity": "location",
+      "start": 49,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "buy donuts in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 10,
+      "entity": "food",
+      "start": 4,
+      "value": "donuts"
+     },
+     {
+      "end": 22,
+      "entity": "location",
+      "start": 14,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "location of cake boutique located at lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "cake boutique"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 37,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "tell me about japenese places to eat in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "cuisine",
+      "start": 14,
+      "value": "japenese"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 40,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "tell address of macdonald toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 33,
+      "entity": "location",
+      "start": 26,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "i need to get coffee in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 14,
+      "value": "coffee"
+     },
+     {
+      "end": 31,
+      "entity": "location",
+      "start": 24,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "find location of dominos pizza in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 34,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "show address of waterbean coffee nearby chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "r_name",
+      "start": 16,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 40,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "can i eat pizza in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 15,
+      "entity": "food",
+      "start": 10,
+      "value": "pizza"
+     },
+     {
+      "end": 29,
+      "entity": "location",
+      "start": 19,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "show address of macdonald located at lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 37,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "tell location of dunkin donuts close to rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 51,
+      "entity": "location",
+      "start": 40,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "find me tiwanese restaurants in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 16,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "tiwanese"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 32,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find address of cake boutique in the area of toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 52,
+      "entity": "location",
+      "start": 45,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "i want to tea in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 13,
+      "entity": "food",
+      "start": 10,
+      "value": "tea"
+     },
+     {
+      "end": 28,
+      "entity": "location",
+      "start": 17,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "location of dominos pizza within pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 43,
+      "entity": "location",
+      "start": 33,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "show address of macdonald lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 34,
+      "entity": "location",
+      "start": 26,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "i want to breakfast & brunch in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "food",
+      "start": 10,
+      "value": "breakfast & brunch"
+     },
+     {
+      "end": 40,
+      "entity": "location",
+      "start": 32,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "find location of waterbean coffee in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 37,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "are there malaysian places to eat in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 19,
+      "entity": "cuisine",
+      "start": 10,
+      "value": "malaysian"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 37,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "location of cake boutique within toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "cake boutique"
+     },
+     {
+      "end": 40,
+      "entity": "location",
+      "start": 33,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "get chickenWings in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 16,
+      "entity": "food",
+      "start": 4,
+      "value": "chickenWings"
+     },
+     {
+      "end": 31,
+      "entity": "location",
+      "start": 20,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "tell address of dunkin donuts rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 30,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "find address of macdonald in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 37,
+      "entity": "location",
+      "start": 29,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "can i buy breakfast and brunch in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "food",
+      "start": 10,
+      "value": "breakfast and brunch"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 34,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "location of dominos pizza in the area of chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 41,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "show address of waterbean coffee close to toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "r_name",
+      "start": 16,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 42,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "i need to go to middle eastern restaurants in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "cuisine",
+      "start": 16,
+      "value": "middle eastern"
+     },
+     {
+      "end": 54,
+      "entity": "location",
+      "start": 46,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "i need to eat breakfast brunch in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "food",
+      "start": 14,
+      "value": "breakfast brunch"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 34,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "tell location of cake boutique located at rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 53,
+      "entity": "location",
+      "start": 42,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "location of dunkin donuts nearby pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 43,
+      "entity": "location",
+      "start": 33,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find address of dominos pizza in the area of pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 55,
+      "entity": "location",
+      "start": 45,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "buy coffee in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 10,
+      "entity": "food",
+      "start": 4,
+      "value": "coffee"
+     },
+     {
+      "end": 24,
+      "entity": "location",
+      "start": 14,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "tell location of waterbean coffee in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 37,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "show address of macdonald located at chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 37,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "i want to chickenWings in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "food",
+      "start": 10,
+      "value": "chickenWings"
+     },
+     {
+      "end": 33,
+      "entity": "location",
+      "start": 26,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "show me fast food places to eat in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 17,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "fast food"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 35,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "find address of dunkin donuts nearby rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 37,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "tell location of cake boutique lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 39,
+      "entity": "location",
+      "start": 31,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "i need to eat donuts in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 14,
+      "value": "donuts"
+     },
+     {
+      "end": 31,
+      "entity": "location",
+      "start": 24,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "show address of dunkin donuts close to pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 39,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "location of macdonald within toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 21,
+      "entity": "r_name",
+      "start": 12,
+      "value": "macdonald"
+     },
+     {
+      "end": 36,
+      "entity": "location",
+      "start": 29,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "can i get tea in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 13,
+      "entity": "food",
+      "start": 10,
+      "value": "tea"
+     },
+     {
+      "end": 28,
+      "entity": "location",
+      "start": 17,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "find address of waterbean coffee in the area of rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "r_name",
+      "start": 16,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 59,
+      "entity": "location",
+      "start": 48,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "tell me about japenese places to eat in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "cuisine",
+      "start": 14,
+      "value": "japenese"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 40,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "tell location of cake boutique nearby lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 38,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "eat breakfast brunch in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 4,
+      "value": "breakfast brunch"
+     },
+     {
+      "end": 34,
+      "entity": "location",
+      "start": 24,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "show location of dominos pizza close to chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 40,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "address of waterbean coffee in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 27,
+      "entity": "r_name",
+      "start": 11,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 39,
+      "entity": "location",
+      "start": 31,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "can i pizza in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 11,
+      "entity": "food",
+      "start": 6,
+      "value": "pizza"
+     },
+     {
+      "end": 23,
+      "entity": "location",
+      "start": 15,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "find location of dunkin donuts pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 31,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "are there japenese restaurants in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 18,
+      "entity": "cuisine",
+      "start": 10,
+      "value": "japenese"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 34,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "show address of macdonald located at toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 37,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "tell location of dominos pizza within lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 38,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "i need to get breakfast & brunch in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "food",
+      "start": 14,
+      "value": "breakfast & brunch"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 36,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "address of cake boutique close to rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "r_name",
+      "start": 11,
+      "value": "cake boutique"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 34,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "show location of dominos pizza nearby rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 38,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "i want to buy breakfast and brunch in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "food",
+      "start": 14,
+      "value": "breakfast and brunch"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 38,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "find me tiwanese places to eat in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 16,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "tiwanese"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 34,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "tell address of waterbean coffee in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "r_name",
+      "start": 16,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 43,
+      "entity": "location",
+      "start": 36,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "can i donuts in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 12,
+      "entity": "food",
+      "start": 6,
+      "value": "donuts"
+     },
+     {
+      "end": 26,
+      "entity": "location",
+      "start": 16,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "location of cake boutique located at pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "cake boutique"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 37,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "get breakfast brunch in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 4,
+      "value": "breakfast brunch"
+     },
+     {
+      "end": 31,
+      "entity": "location",
+      "start": 24,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "i need to go to fast food restaurants in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "cuisine",
+      "start": 16,
+      "value": "fast food"
+     },
+     {
+      "end": 51,
+      "entity": "location",
+      "start": 41,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "tell address of waterbean coffee in the area of lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "r_name",
+      "start": 16,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 56,
+      "entity": "location",
+      "start": 48,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "i want to eat tea in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 17,
+      "entity": "food",
+      "start": 14,
+      "value": "tea"
+     },
+     {
+      "end": 29,
+      "entity": "location",
+      "start": 21,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "show location of cake boutique pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 31,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "tell address of macdonald nearby rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 33,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "find location of dominos pizza located at toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 42,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "i need to buy chickenWings in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "food",
+      "start": 14,
+      "value": "chickenWings"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 30,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "address of dunkin donuts within toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "r_name",
+      "start": 11,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 39,
+      "entity": "location",
+      "start": 32,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "show me malaysian places to eat in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 17,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "malaysian"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 35,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "show location of macdonald in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "r_name",
+      "start": 17,
+      "value": "macdonald"
+     },
+     {
+      "end": 38,
+      "entity": "location",
+      "start": 30,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "i want to get pizza in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 19,
+      "entity": "food",
+      "start": 14,
+      "value": "pizza"
+     },
+     {
+      "end": 34,
+      "entity": "location",
+      "start": 23,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "find address of cake boutique close to lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 39,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "location of dominos pizza located at rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 37,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "can i coffee in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 12,
+      "entity": "food",
+      "start": 6,
+      "value": "coffee"
+     },
+     {
+      "end": 26,
+      "entity": "location",
+      "start": 16,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "show address of cake boutique close to toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 39,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "middle eastern restaurants in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 14,
+      "entity": "cuisine",
+      "start": 0,
+      "value": "middle eastern"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 30,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "i need to buy breakfast and brunch in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "food",
+      "start": 14,
+      "value": "breakfast and brunch"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 38,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "tell address of dominos pizza in the area of chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 53,
+      "entity": "location",
+      "start": 45,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "location of macdonald within lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 21,
+      "entity": "r_name",
+      "start": 12,
+      "value": "macdonald"
+     },
+     {
+      "end": 37,
+      "entity": "location",
+      "start": 29,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "eat breakfast & brunch in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "food",
+      "start": 4,
+      "value": "breakfast & brunch"
+     },
+     {
+      "end": 33,
+      "entity": "location",
+      "start": 26,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "find address of waterbean coffee nearby rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "r_name",
+      "start": 16,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 51,
+      "entity": "location",
+      "start": 40,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "show location of dunkin donuts in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 34,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "buy chickenWings in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 16,
+      "entity": "food",
+      "start": 4,
+      "value": "chickenWings"
+     },
+     {
+      "end": 28,
+      "entity": "location",
+      "start": 20,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "tell me about japenese restaurants in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "cuisine",
+      "start": 14,
+      "value": "japenese"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 38,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "location of dunkin donuts within lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 33,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "tell address of dominos pizza in the area of pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 55,
+      "entity": "location",
+      "start": 45,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find location of waterbean coffee toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 34,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "can i tea in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 9,
+      "entity": "food",
+      "start": 6,
+      "value": "tea"
+     },
+     {
+      "end": 24,
+      "entity": "location",
+      "start": 13,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "show address of macdonald nearby rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 33,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "location of cake boutique close to chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "cake boutique"
+     },
+     {
+      "end": 43,
+      "entity": "location",
+      "start": 35,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "i want to get breakfast and brunch in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "food",
+      "start": 14,
+      "value": "breakfast and brunch"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 38,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "show me middle eastern places to eat in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "middle eastern"
+     },
+     {
+      "end": 50,
+      "entity": "location",
+      "start": 40,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find address of cake boutique located at rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 52,
+      "entity": "location",
+      "start": 41,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "tell location of macdonald in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "r_name",
+      "start": 17,
+      "value": "macdonald"
+     },
+     {
+      "end": 37,
+      "entity": "location",
+      "start": 30,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "show address of dunkin donuts in the area of lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 53,
+      "entity": "location",
+      "start": 45,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "show address of dominos pizza located at chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 41,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "eat pizza in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 9,
+      "entity": "food",
+      "start": 4,
+      "value": "pizza"
+     },
+     {
+      "end": 23,
+      "entity": "location",
+      "start": 13,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "tell location of waterbean coffee close to pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 53,
+      "entity": "location",
+      "start": 43,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "i need to go to tiwanese places to eat in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "cuisine",
+      "start": 16,
+      "value": "tiwanese"
+     },
+     {
+      "end": 53,
+      "entity": "location",
+      "start": 42,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "location of dunkin donuts nearby chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 33,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "find address of macdonald toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 33,
+      "entity": "location",
+      "start": 26,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "tell location of cake boutique within lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 38,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "show address of dominos pizza in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 33,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "i need to get breakfast brunch in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "food",
+      "start": 14,
+      "value": "breakfast brunch"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 34,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "fast food restaurants in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 9,
+      "entity": "cuisine",
+      "start": 0,
+      "value": "fast food"
+     },
+     {
+      "end": 33,
+      "entity": "location",
+      "start": 25,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "find address of macdonald nearby lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 33,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "i want to breakfast & brunch in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "food",
+      "start": 10,
+      "value": "breakfast & brunch"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 32,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "location of waterbean coffee pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "r_name",
+      "start": 12,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 39,
+      "entity": "location",
+      "start": 29,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "tell address of dunkin donuts in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 40,
+      "entity": "location",
+      "start": 33,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "i need to pizza in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 15,
+      "entity": "food",
+      "start": 10,
+      "value": "pizza"
+     },
+     {
+      "end": 30,
+      "entity": "location",
+      "start": 19,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "find location of dominos pizza within chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 38,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "find me malaysian places to eat in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 17,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "malaysian"
+     },
+     {
+      "end": 43,
+      "entity": "location",
+      "start": 35,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "show address of cake boutique located at rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 52,
+      "entity": "location",
+      "start": 41,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "eat donuts in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 10,
+      "entity": "food",
+      "start": 4,
+      "value": "donuts"
+     },
+     {
+      "end": 21,
+      "entity": "location",
+      "start": 14,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "show location of cake boutique in the area of chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 54,
+      "entity": "location",
+      "start": 46,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "can i buy coffee in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 16,
+      "entity": "food",
+      "start": 10,
+      "value": "coffee"
+     },
+     {
+      "end": 28,
+      "entity": "location",
+      "start": 20,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "find location of dominos pizza in the area of lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 54,
+      "entity": "location",
+      "start": 46,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "are there fast food restaurants in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 19,
+      "entity": "cuisine",
+      "start": 10,
+      "value": "fast food"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 35,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "show address of waterbean coffee nearby rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "r_name",
+      "start": 16,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 51,
+      "entity": "location",
+      "start": 40,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "i want to get breakfast brunch in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "food",
+      "start": 14,
+      "value": "breakfast brunch"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 34,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "location of cake boutique located at toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "cake boutique"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 37,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "tell location of waterbean coffee rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 34,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "i need to eat tea in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 17,
+      "entity": "food",
+      "start": 14,
+      "value": "tea"
+     },
+     {
+      "end": 31,
+      "entity": "location",
+      "start": 21,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find address of dominos pizza within chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 37,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "find address of macdonald nearby pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 43,
+      "entity": "location",
+      "start": 33,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "show me tiwanese restaurants in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 16,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "tiwanese"
+     },
+     {
+      "end": 39,
+      "entity": "location",
+      "start": 32,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "i want to get chickenWings in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "food",
+      "start": 14,
+      "value": "chickenWings"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 30,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "tell location of dunkin donuts within lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 38,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "location of dunkin donuts located at rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 37,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "buy breakfast and brunch in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "food",
+      "start": 4,
+      "value": "breakfast and brunch"
+     },
+     {
+      "end": 36,
+      "entity": "location",
+      "start": 28,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "show address of dominos pizza close to toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 39,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "tell address of cake boutique chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 38,
+      "entity": "location",
+      "start": 30,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "i need to go to malaysian places to eat in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "cuisine",
+      "start": 16,
+      "value": "malaysian"
+     },
+     {
+      "end": 53,
+      "entity": "location",
+      "start": 43,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "can i breakfast & brunch in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "food",
+      "start": 6,
+      "value": "breakfast & brunch"
+     },
+     {
+      "end": 35,
+      "entity": "location",
+      "start": 28,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "find location of waterbean coffee in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 37,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "show address of macdonald in the area of pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 51,
+      "entity": "location",
+      "start": 41,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "location of cake boutique nearby chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "cake boutique"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 33,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "can i buy tea in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 13,
+      "entity": "food",
+      "start": 10,
+      "value": "tea"
+     },
+     {
+      "end": 28,
+      "entity": "location",
+      "start": 17,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "tell address of waterbean coffee within toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "r_name",
+      "start": 16,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 40,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "show location of dunkin donuts close to rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 51,
+      "entity": "location",
+      "start": 40,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "i want to get coffee in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 14,
+      "value": "coffee"
+     },
+     {
+      "end": 32,
+      "entity": "location",
+      "start": 24,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "tell me about japenese restaurants in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "cuisine",
+      "start": 14,
+      "value": "japenese"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 38,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "location of macdonald in the area of lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 21,
+      "entity": "r_name",
+      "start": 12,
+      "value": "macdonald"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 37,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "find address of dominos pizza pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 40,
+      "entity": "location",
+      "start": 30,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "i need to chickenWings in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "food",
+      "start": 10,
+      "value": "chickenWings"
+     },
+     {
+      "end": 36,
+      "entity": "location",
+      "start": 26,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find address of dominos pizza in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 33,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "location of macdonald located at toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 21,
+      "entity": "r_name",
+      "start": 12,
+      "value": "macdonald"
+     },
+     {
+      "end": 40,
+      "entity": "location",
+      "start": 33,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "eat breakfast & brunch in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "food",
+      "start": 4,
+      "value": "breakfast & brunch"
+     },
+     {
+      "end": 34,
+      "entity": "location",
+      "start": 26,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "find me middle eastern places to eat in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "middle eastern"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 40,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "tell address of dunkin donuts close to lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 39,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "i want to get donuts in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 14,
+      "value": "donuts"
+     },
+     {
+      "end": 31,
+      "entity": "location",
+      "start": 24,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "show address of cake boutique pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 40,
+      "entity": "location",
+      "start": 30,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "tell location of macdonald located at lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "r_name",
+      "start": 17,
+      "value": "macdonald"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 38,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "pizza in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 5,
+      "entity": "food",
+      "start": 0,
+      "value": "pizza"
+     },
+     {
+      "end": 17,
+      "entity": "location",
+      "start": 9,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "address of dominos pizza in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "r_name",
+      "start": 11,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 36,
+      "entity": "location",
+      "start": 28,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "are there malaysian places to eat in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 19,
+      "entity": "cuisine",
+      "start": 10,
+      "value": "malaysian"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 37,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find location of dunkin donuts in the area of rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 57,
+      "entity": "location",
+      "start": 46,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "show location of waterbean coffee within pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 51,
+      "entity": "location",
+      "start": 41,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "i need to eat breakfast and brunch in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "food",
+      "start": 14,
+      "value": "breakfast and brunch"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 38,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "address of cake boutique close to toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "r_name",
+      "start": 11,
+      "value": "cake boutique"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 34,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "tell address of dunkin donuts within pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 37,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "can i buy breakfast brunch in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "food",
+      "start": 10,
+      "value": "breakfast brunch"
+     },
+     {
+      "end": 37,
+      "entity": "location",
+      "start": 30,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "find location of cake boutique located at rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 53,
+      "entity": "location",
+      "start": 42,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "address of macdonald chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "r_name",
+      "start": 11,
+      "value": "macdonald"
+     },
+     {
+      "end": 29,
+      "entity": "location",
+      "start": 21,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "i need to buy tea in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 17,
+      "entity": "food",
+      "start": 14,
+      "value": "tea"
+     },
+     {
+      "end": 32,
+      "entity": "location",
+      "start": 21,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "find location of waterbean coffee nearby toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 41,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "tell address of dominos pizza in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 33,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "get coffee in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 10,
+      "entity": "food",
+      "start": 4,
+      "value": "coffee"
+     },
+     {
+      "end": 24,
+      "entity": "location",
+      "start": 14,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "show location of dominos pizza in the area of toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 53,
+      "entity": "location",
+      "start": 46,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "show location of dunkin donuts lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 39,
+      "entity": "location",
+      "start": 31,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "show me tiwanese places to eat in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 16,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "tiwanese"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 34,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "can i eat breakfast brunch in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "food",
+      "start": 10,
+      "value": "breakfast brunch"
+     },
+     {
+      "end": 37,
+      "entity": "location",
+      "start": 30,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "address of waterbean coffee in the area of chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 27,
+      "entity": "r_name",
+      "start": 11,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 51,
+      "entity": "location",
+      "start": 43,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "find location of macdonald in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "r_name",
+      "start": 17,
+      "value": "macdonald"
+     },
+     {
+      "end": 40,
+      "entity": "location",
+      "start": 30,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "tell address of cake boutique close to rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 50,
+      "entity": "location",
+      "start": 39,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "i want to donuts in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 16,
+      "entity": "food",
+      "start": 10,
+      "value": "donuts"
+     },
+     {
+      "end": 28,
+      "entity": "location",
+      "start": 20,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "show address of dunkin donuts located at chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 41,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "i want to buy pizza in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 19,
+      "entity": "food",
+      "start": 14,
+      "value": "pizza"
+     },
+     {
+      "end": 33,
+      "entity": "location",
+      "start": 23,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find location of cake boutique within lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 38,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "show location of waterbean coffee toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 34,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "find address of dominos pizza located at toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 41,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "tell me about middle eastern restaurants in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "cuisine",
+      "start": 14,
+      "value": "middle eastern"
+     },
+     {
+      "end": 52,
+      "entity": "location",
+      "start": 44,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "breakfast & brunch in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 18,
+      "entity": "food",
+      "start": 0,
+      "value": "breakfast & brunch"
+     },
+     {
+      "end": 30,
+      "entity": "location",
+      "start": 22,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "tell address of waterbean coffee in the area of rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "r_name",
+      "start": 16,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 59,
+      "entity": "location",
+      "start": 48,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "location of cake boutique in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "cake boutique"
+     },
+     {
+      "end": 37,
+      "entity": "location",
+      "start": 29,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "i need to get breakfast and brunch in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "food",
+      "start": 14,
+      "value": "breakfast and brunch"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 38,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "location of dunkin donuts close to lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 43,
+      "entity": "location",
+      "start": 35,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "can i get breakfast and brunch in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "food",
+      "start": 10,
+      "value": "breakfast and brunch"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 34,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "i need to go to malaysian places to eat in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "cuisine",
+      "start": 16,
+      "value": "malaysian"
+     },
+     {
+      "end": 54,
+      "entity": "location",
+      "start": 43,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "tell address of waterbean coffee close to rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "r_name",
+      "start": 16,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 53,
+      "entity": "location",
+      "start": 42,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "i want to buy coffee in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 14,
+      "value": "coffee"
+     },
+     {
+      "end": 32,
+      "entity": "location",
+      "start": 24,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "tell location of macdonald within toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "r_name",
+      "start": 17,
+      "value": "macdonald"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 34,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "address of cake boutique in the area of pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "r_name",
+      "start": 11,
+      "value": "cake boutique"
+     },
+     {
+      "end": 50,
+      "entity": "location",
+      "start": 40,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "chickenWings in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 12,
+      "entity": "food",
+      "start": 0,
+      "value": "chickenWings"
+     },
+     {
+      "end": 24,
+      "entity": "location",
+      "start": 16,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "find me tiwanese places to eat in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 16,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "tiwanese"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 34,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "show location of cake boutique located at rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 53,
+      "entity": "location",
+      "start": 42,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "address of dominos pizza nearby chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "r_name",
+      "start": 11,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 40,
+      "entity": "location",
+      "start": 32,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "i need to eat pizza in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 19,
+      "entity": "food",
+      "start": 14,
+      "value": "pizza"
+     },
+     {
+      "end": 33,
+      "entity": "location",
+      "start": 23,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "show location of waterbean coffee in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 37,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "find address of dunkin donuts lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 38,
+      "entity": "location",
+      "start": 30,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "i need to tea in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 13,
+      "entity": "food",
+      "start": 10,
+      "value": "tea"
+     },
+     {
+      "end": 24,
+      "entity": "location",
+      "start": 17,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "tell location of macdonald in the area of pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "r_name",
+      "start": 17,
+      "value": "macdonald"
+     },
+     {
+      "end": 52,
+      "entity": "location",
+      "start": 42,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "japenese restaurants in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 8,
+      "entity": "cuisine",
+      "start": 0,
+      "value": "japenese"
+     },
+     {
+      "end": 32,
+      "entity": "location",
+      "start": 24,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "show address of dunkin donuts within lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 37,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "i want to eat donuts in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 14,
+      "value": "donuts"
+     },
+     {
+      "end": 35,
+      "entity": "location",
+      "start": 24,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "find location of macdonald nearby toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "r_name",
+      "start": 17,
+      "value": "macdonald"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 34,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "address of dominos pizza located at rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "r_name",
+      "start": 11,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 36,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "get breakfast & brunch in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "food",
+      "start": 4,
+      "value": "breakfast & brunch"
+     },
+     {
+      "end": 36,
+      "entity": "location",
+      "start": 26,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find me fast food restaurants in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 17,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "fast food"
+     },
+     {
+      "end": 43,
+      "entity": "location",
+      "start": 33,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find location of cake boutique close to chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 40,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "address of waterbean coffee lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 27,
+      "entity": "r_name",
+      "start": 11,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 36,
+      "entity": "location",
+      "start": 28,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "can i buy breakfast brunch in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "food",
+      "start": 10,
+      "value": "breakfast brunch"
+     },
+     {
+      "end": 38,
+      "entity": "location",
+      "start": 30,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "show address of macdonald nearby pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 43,
+      "entity": "location",
+      "start": 33,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "tell location of cake boutique within chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 38,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "i want to get tea in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 17,
+      "entity": "food",
+      "start": 14,
+      "value": "tea"
+     },
+     {
+      "end": 29,
+      "entity": "location",
+      "start": 21,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "find address of dominos pizza in the area of rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 56,
+      "entity": "location",
+      "start": 45,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "tell me about middle eastern places to eat in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "cuisine",
+      "start": 14,
+      "value": "middle eastern"
+     },
+     {
+      "end": 53,
+      "entity": "location",
+      "start": 46,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "location of dunkin donuts located at toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 37,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "tell location of cake boutique in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 34,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "show address of waterbean coffee located at lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "r_name",
+      "start": 16,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 52,
+      "entity": "location",
+      "start": 44,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "location of dominos pizza rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 37,
+      "entity": "location",
+      "start": 26,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "tell address of dunkin donuts within chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 37,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "i need to buy donuts in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 14,
+      "value": "donuts"
+     },
+     {
+      "end": 32,
+      "entity": "location",
+      "start": 24,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "find location of dunkin donuts in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 34,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "show location of macdonald in the area of pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "r_name",
+      "start": 17,
+      "value": "macdonald"
+     },
+     {
+      "end": 52,
+      "entity": "location",
+      "start": 42,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "i want to breakfast and brunch in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "food",
+      "start": 10,
+      "value": "breakfast and brunch"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 34,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "address of dominos pizza within rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "r_name",
+      "start": 11,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 43,
+      "entity": "location",
+      "start": 32,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "middle eastern restaurants in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 14,
+      "entity": "cuisine",
+      "start": 0,
+      "value": "middle eastern"
+     },
+     {
+      "end": 38,
+      "entity": "location",
+      "start": 30,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "can i eat coffee in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 16,
+      "entity": "food",
+      "start": 10,
+      "value": "coffee"
+     },
+     {
+      "end": 27,
+      "entity": "location",
+      "start": 20,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "tell location of waterbean coffee nearby toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 41,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "show location of waterbean coffee chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 34,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "buy breakfast & brunch in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "food",
+      "start": 4,
+      "value": "breakfast & brunch"
+     },
+     {
+      "end": 37,
+      "entity": "location",
+      "start": 26,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "find address of dunkin donuts in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 33,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "location of cake boutique in the area of rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "cake boutique"
+     },
+     {
+      "end": 52,
+      "entity": "location",
+      "start": 41,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "show me fast food restaurants in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 17,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "fast food"
+     },
+     {
+      "end": 40,
+      "entity": "location",
+      "start": 33,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "i need to get breakfast brunch in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "food",
+      "start": 14,
+      "value": "breakfast brunch"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 34,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "tell address of macdonald located at pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 37,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find address of dominos pizza close to toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 39,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "i need to eat donuts in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 14,
+      "value": "donuts"
+     },
+     {
+      "end": 32,
+      "entity": "location",
+      "start": 24,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "show location of cake boutique in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 34,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "address of dunkin donuts located at rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "r_name",
+      "start": 11,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 36,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "tell location of macdonald within pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "r_name",
+      "start": 17,
+      "value": "macdonald"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 34,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "i want to buy tea in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 17,
+      "entity": "food",
+      "start": 14,
+      "value": "tea"
+     },
+     {
+      "end": 29,
+      "entity": "location",
+      "start": 21,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "are there japenese places to eat in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 18,
+      "entity": "cuisine",
+      "start": 10,
+      "value": "japenese"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 36,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "address of dominos pizza close to chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "r_name",
+      "start": 11,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 34,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "pizza in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 5,
+      "entity": "food",
+      "start": 0,
+      "value": "pizza"
+     },
+     {
+      "end": 16,
+      "entity": "location",
+      "start": 9,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "tell address of waterbean coffee nearby lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "r_name",
+      "start": 16,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 40,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "show location of macdonald in the area of toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "r_name",
+      "start": 17,
+      "value": "macdonald"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 42,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "can i get breakfast brunch in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "food",
+      "start": 10,
+      "value": "breakfast brunch"
+     },
+     {
+      "end": 40,
+      "entity": "location",
+      "start": 30,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find me malaysian restaurants in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 17,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "malaysian"
+     },
+     {
+      "end": 43,
+      "entity": "location",
+      "start": 33,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find location of dominos pizza within rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 38,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "show address of cake boutique close to pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 39,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "can i eat chickenWings in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "food",
+      "start": 10,
+      "value": "chickenWings"
+     },
+     {
+      "end": 34,
+      "entity": "location",
+      "start": 26,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "tell location of dunkin donuts in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 34,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "address of cake boutique nearby toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "r_name",
+      "start": 11,
+      "value": "cake boutique"
+     },
+     {
+      "end": 39,
+      "entity": "location",
+      "start": 32,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "get coffee in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 10,
+      "entity": "food",
+      "start": 4,
+      "value": "coffee"
+     },
+     {
+      "end": 25,
+      "entity": "location",
+      "start": 14,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "show location of waterbean coffee in the area of chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 57,
+      "entity": "location",
+      "start": 49,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "are there tiwanese places to eat in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 18,
+      "entity": "cuisine",
+      "start": 10,
+      "value": "tiwanese"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 36,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "i need to breakfast & brunch in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "food",
+      "start": 10,
+      "value": "breakfast & brunch"
+     },
+     {
+      "end": 39,
+      "entity": "location",
+      "start": 32,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "tell address of macdonald in the area of lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 41,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "address of dominos pizza within toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "r_name",
+      "start": 11,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 39,
+      "entity": "location",
+      "start": 32,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "i want to buy breakfast and brunch in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "food",
+      "start": 14,
+      "value": "breakfast and brunch"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 38,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "tell location of cake boutique rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 31,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "i need to go to fast food places to eat in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "cuisine",
+      "start": 16,
+      "value": "fast food"
+     },
+     {
+      "end": 51,
+      "entity": "location",
+      "start": 43,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "find address of waterbean coffee in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "r_name",
+      "start": 16,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 36,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "i need to buy donuts in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 14,
+      "value": "donuts"
+     },
+     {
+      "end": 35,
+      "entity": "location",
+      "start": 24,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "show location of dunkin donuts located at pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 52,
+      "entity": "location",
+      "start": 42,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find address of macdonald close to lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 43,
+      "entity": "location",
+      "start": 35,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "can i tea in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 9,
+      "entity": "food",
+      "start": 6,
+      "value": "tea"
+     },
+     {
+      "end": 21,
+      "entity": "location",
+      "start": 13,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "show me japenese restaurants in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 16,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "japenese"
+     },
+     {
+      "end": 43,
+      "entity": "location",
+      "start": 32,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "i want to get coffee in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 14,
+      "value": "coffee"
+     },
+     {
+      "end": 31,
+      "entity": "location",
+      "start": 24,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "find address of cake boutique rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 30,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "eat breakfast brunch in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 4,
+      "value": "breakfast brunch"
+     },
+     {
+      "end": 32,
+      "entity": "location",
+      "start": 24,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "middle eastern restaurants in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 14,
+      "entity": "cuisine",
+      "start": 0,
+      "value": "middle eastern"
+     },
+     {
+      "end": 37,
+      "entity": "location",
+      "start": 30,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "tell address of waterbean coffee in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "r_name",
+      "start": 16,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 36,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "i want to chickenWings in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "food",
+      "start": 10,
+      "value": "chickenWings"
+     },
+     {
+      "end": 36,
+      "entity": "location",
+      "start": 26,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "address of cake boutique close to lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "r_name",
+      "start": 11,
+      "value": "cake boutique"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 34,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "tell location of macdonald located at toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "r_name",
+      "start": 17,
+      "value": "macdonald"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 38,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "can i get pizza in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 15,
+      "entity": "food",
+      "start": 10,
+      "value": "pizza"
+     },
+     {
+      "end": 29,
+      "entity": "location",
+      "start": 19,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find location of dominos pizza in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 34,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "tell me about malaysian places to eat in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 23,
+      "entity": "cuisine",
+      "start": 14,
+      "value": "malaysian"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 41,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "i need to eat breakfast and brunch in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "food",
+      "start": 14,
+      "value": "breakfast and brunch"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 38,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "show location of macdonald toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "r_name",
+      "start": 17,
+      "value": "macdonald"
+     },
+     {
+      "end": 34,
+      "entity": "location",
+      "start": 27,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "tell address of dominos pizza nearby rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 37,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "find address of cake boutique within pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 37,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "location of waterbean coffee close to chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "r_name",
+      "start": 12,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 38,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "can i eat tea in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 13,
+      "entity": "food",
+      "start": 10,
+      "value": "tea"
+     },
+     {
+      "end": 25,
+      "entity": "location",
+      "start": 17,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "malaysian places to eat in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 9,
+      "entity": "cuisine",
+      "start": 0,
+      "value": "malaysian"
+     },
+     {
+      "end": 38,
+      "entity": "location",
+      "start": 27,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "location of dominos pizza located at lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 37,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "tell address of cake boutique within pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 37,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find address of macdonald in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 40,
+      "entity": "location",
+      "start": 29,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "i want to get donuts in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 14,
+      "value": "donuts"
+     },
+     {
+      "end": 32,
+      "entity": "location",
+      "start": 24,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "show location of dunkin donuts chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 39,
+      "entity": "location",
+      "start": 31,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "show location of waterbean coffee in the area of toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 56,
+      "entity": "location",
+      "start": 49,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "coffee in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 6,
+      "entity": "food",
+      "start": 0,
+      "value": "coffee"
+     },
+     {
+      "end": 18,
+      "entity": "location",
+      "start": 10,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "find me japenese restaurants in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 16,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "japenese"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 32,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "find address of cake boutique nearby pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 37,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "location of waterbean coffee close to toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "r_name",
+      "start": 12,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 38,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "i need to buy chickenWings in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "food",
+      "start": 14,
+      "value": "chickenWings"
+     },
+     {
+      "end": 38,
+      "entity": "location",
+      "start": 30,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "tell address of macdonald rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 37,
+      "entity": "location",
+      "start": 26,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "tell location of dominos pizza in the area of lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 54,
+      "entity": "location",
+      "start": 46,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "buy breakfast and brunch in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "food",
+      "start": 4,
+      "value": "breakfast and brunch"
+     },
+     {
+      "end": 39,
+      "entity": "location",
+      "start": 28,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "address of dunkin donuts nearby chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "r_name",
+      "start": 11,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 40,
+      "entity": "location",
+      "start": 32,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "tell me about tiwanese restaurants in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "cuisine",
+      "start": 14,
+      "value": "tiwanese"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 38,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "find address of cake boutique within chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 37,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "address of waterbean coffee close to toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 27,
+      "entity": "r_name",
+      "start": 11,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 37,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "show location of macdonald in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "r_name",
+      "start": 17,
+      "value": "macdonald"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 30,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "i want to get breakfast brunch in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "food",
+      "start": 14,
+      "value": "breakfast brunch"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 34,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "show me middle eastern places to eat in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "middle eastern"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 40,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "tell location of dominos pizza located at lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 50,
+      "entity": "location",
+      "start": 42,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "find address of cake boutique lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 38,
+      "entity": "location",
+      "start": 30,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "i need to breakfast & brunch in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "food",
+      "start": 10,
+      "value": "breakfast & brunch"
+     },
+     {
+      "end": 40,
+      "entity": "location",
+      "start": 32,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "find location of waterbean coffee within toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 48,
+      "entity": "location",
+      "start": 41,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "get tea in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 7,
+      "entity": "food",
+      "start": 4,
+      "value": "tea"
+     },
+     {
+      "end": 21,
+      "entity": "location",
+      "start": 11,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "tell location of dunkin donuts in the area of chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 54,
+      "entity": "location",
+      "start": 46,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "i need to go to fast food places to eat in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "cuisine",
+      "start": 16,
+      "value": "fast food"
+     },
+     {
+      "end": 50,
+      "entity": "location",
+      "start": 43,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "address of dominos pizza in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 24,
+      "entity": "r_name",
+      "start": 11,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 38,
+      "entity": "location",
+      "start": 28,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "i need to chickenWings in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "food",
+      "start": 10,
+      "value": "chickenWings"
+     },
+     {
+      "end": 34,
+      "entity": "location",
+      "start": 26,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "find location of waterbean coffee close to lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 51,
+      "entity": "location",
+      "start": 43,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "show address of dunkin donuts in the area of chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 53,
+      "entity": "location",
+      "start": 45,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "can i eat coffee in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 16,
+      "entity": "food",
+      "start": 10,
+      "value": "coffee"
+     },
+     {
+      "end": 31,
+      "entity": "location",
+      "start": 20,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "address of macdonald within pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "r_name",
+      "start": 11,
+      "value": "macdonald"
+     },
+     {
+      "end": 38,
+      "entity": "location",
+      "start": 28,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "tell location of dominos pizza close to rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 51,
+      "entity": "location",
+      "start": 40,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "are there japenese restaurants in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 18,
+      "entity": "cuisine",
+      "start": 10,
+      "value": "japenese"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 34,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "tell address of cake boutique nearby toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 37,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "i want to buy donuts in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 14,
+      "value": "donuts"
+     },
+     {
+      "end": 31,
+      "entity": "location",
+      "start": 24,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "location of dunkin donuts in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 36,
+      "entity": "location",
+      "start": 29,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "find location of waterbean coffee rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "r_name",
+      "start": 17,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 34,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "i need to pizza in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 15,
+      "entity": "food",
+      "start": 10,
+      "value": "pizza"
+     },
+     {
+      "end": 27,
+      "entity": "location",
+      "start": 19,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "tell me about fast food places to eat in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 23,
+      "entity": "cuisine",
+      "start": 14,
+      "value": "fast food"
+     },
+     {
+      "end": 52,
+      "entity": "location",
+      "start": 41,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "tell address of cake boutique located at lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 41,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "buy breakfast brunch in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 4,
+      "value": "breakfast brunch"
+     },
+     {
+      "end": 34,
+      "entity": "location",
+      "start": 24,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "location of dunkin donuts chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 34,
+      "entity": "location",
+      "start": 26,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "tell address of dominos pizza within pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 37,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "tiwanese restaurants in pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 8,
+      "entity": "cuisine",
+      "start": 0,
+      "value": "tiwanese"
+     },
+     {
+      "end": 34,
+      "entity": "location",
+      "start": 24,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "i want to eat breakfast & brunch in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "food",
+      "start": 14,
+      "value": "breakfast & brunch"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 36,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "location of waterbean coffee in the area of toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "r_name",
+      "start": 12,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 51,
+      "entity": "location",
+      "start": 44,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "i need to get pizza in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 19,
+      "entity": "food",
+      "start": 14,
+      "value": "pizza"
+     },
+     {
+      "end": 31,
+      "entity": "location",
+      "start": 23,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "tell address of dunkin donuts nearby chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 37,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "find location of cake boutique in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "r_name",
+      "start": 17,
+      "value": "cake boutique"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 34,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "show address of macdonald close to lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 16,
+      "value": "macdonald"
+     },
+     {
+      "end": 43,
+      "entity": "location",
+      "start": 35,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "can i buy breakfast & brunch in rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "food",
+      "start": 10,
+      "value": "breakfast & brunch"
+     },
+     {
+      "end": 43,
+      "entity": "location",
+      "start": 32,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "location of waterbean coffee located at toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "r_name",
+      "start": 12,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 47,
+      "entity": "location",
+      "start": 40,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "show address of dominos pizza located at pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 51,
+      "entity": "location",
+      "start": 41,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "i want to buy coffee in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 14,
+      "value": "coffee"
+     },
+     {
+      "end": 32,
+      "entity": "location",
+      "start": 24,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "show address of cake boutique in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 41,
+      "entity": "location",
+      "start": 33,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "find location of macdonald in the area of toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 26,
+      "entity": "r_name",
+      "start": 17,
+      "value": "macdonald"
+     },
+     {
+      "end": 49,
+      "entity": "location",
+      "start": 42,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "i need to tea in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 13,
+      "entity": "food",
+      "start": 10,
+      "value": "tea"
+     },
+     {
+      "end": 25,
+      "entity": "location",
+      "start": 17,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "tell address of cake boutique nearby lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "cake boutique"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 37,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "i need to go to malaysian places to eat in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "cuisine",
+      "start": 16,
+      "value": "malaysian"
+     },
+     {
+      "end": 51,
+      "entity": "location",
+      "start": 43,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "location of dunkin donuts within rocky river",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 25,
+      "entity": "r_name",
+      "start": 12,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 33,
+      "value": "rocky river"
+     }
+    ]
+   },
+   {
+    "text": "show address of dominos pizza pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dominos pizza"
+     },
+     {
+      "end": 40,
+      "entity": "location",
+      "start": 30,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "can i get breakfast and brunch in chandler",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "food",
+      "start": 10,
+      "value": "breakfast and brunch"
+     },
+     {
+      "end": 42,
+      "entity": "location",
+      "start": 34,
+      "value": "chandler"
+     }
+    ]
+   },
+   {
+    "text": "location of waterbean coffee nearby pittsburgh",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "r_name",
+      "start": 12,
+      "value": "waterbean coffee"
+     },
+     {
+      "end": 46,
+      "entity": "location",
+      "start": 36,
+      "value": "pittsburgh"
+     }
+    ]
+   },
+   {
+    "text": "eat breakfast brunch in lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 4,
+      "value": "breakfast brunch"
+     },
+     {
+      "end": 32,
+      "entity": "location",
+      "start": 24,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "tell address of dunkin donuts within lasVegas",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "r_name",
+      "start": 16,
+      "value": "dunkin donuts"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 37,
+      "value": "lasVegas"
+     }
+    ]
+   },
+   {
+    "text": "find me middle eastern restaurants in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 22,
+      "entity": "cuisine",
+      "start": 8,
+      "value": "middle eastern"
+     },
+     {
+      "end": 45,
+      "entity": "location",
+      "start": 38,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "i need to eat coffee in toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 20,
+      "entity": "food",
+      "start": 14,
+      "value": "coffee"
+     },
+     {
+      "end": 31,
+      "entity": "location",
+      "start": 24,
+      "value": "toronto"
+     }
+    ]
+   },
+   {
+    "text": "location of macdonald in the area of toronto",
+    "intent": "restaurant_search",
+    "entities": [
+     {
+      "end": 21,
+      "entity": "r_name",
+      "start": 12,
+      "value": "macdonald"
+     },
+     {
+      "end": 44,
+      "entity": "location",
+      "start": 37,
+      "value": "toronto"
+     }
+    ]
+   }
+  ]
+ }
+}

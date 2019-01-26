@@ -1,0 +1,12 @@
+## Generated Story -4221294358438342258
+* hi
+    - utter_greet
+* hi
+    - utter_greet
+* tell the address of kfc
+    - action_check_restaurants
+* restaurant_search
+* from where can i get chinese food
+    - action_check_restaurants
+    - export
+

@@ -1,0 +1,363 @@
+	business_id	name	neighborhood	address	city	state	postal_code	latitude	longitude	stars	review_count	is_open	categories
+344	_--LAZXefssKWdyn-BTp9A	"""Fitch's Chophouse & Spirits"""		"""5957 McKee Rd"""	Fitchburg	WI	53719	43.0148509	-89.4579482	2.0	3	0	Restaurants
+944	vZbcZDWqIvHmUtS3Pky1tA	"""Edo Japon"""	Ville-Marie	"""705 Rue Sainte-Catherine O"""	Montréal	QC	H3B 4G5	45.5027545	-73.5714715	4.5	7	1	Restaurants
+1053	8b4amK9y5miP6-UzfH5K0A	"""Conviction"""		"""609 King St W"""	Toronto	ON	M5V 1MB	43.6442207	-79.4006551	3.5	3	0	Restaurants
+1567	Gg0DVuNGaqUVFPVrrFQd6Q	"""Wing Wing Restaurant"""	East York	"""3032 Danforth Ave"""	East York	ON	M4C 1N2	43.6908759	-79.2899377	2.0	5	1	Restaurants
+2711	BpU9-wcOWyKcVtkvnfRazA	"""Wok & Grill"""	Downtown	"""120 5th Ave"""	Pittsburgh	PA	15222	40.441888	-80.003443	3.0	3	1	Restaurants
+3105	KLJmSYpq81fy0gXri-tAAw	"""Firefly"""	Regent	"""2701 University Ave"""	Madison	WI	53705	43.0731452	-89.4344018	1.5	5	0	Restaurants
+3303	QAN6zr-IzPD04G9clSGtBw	"""Dragon Gate Restaurant"""		"""8701 Brookpark Rd"""	Cleveland	OH	44129	41.4173311	-81.7452085	3.0	4	0	Restaurants
+3996	a_E-rLe2zcyX-X4FKhWWRg	"""Tacos Maricos Sinaloa"""		"""2802 W McDowell Rd"""	Phoenix	AZ	85009	33.4662224	-112.1197552	2.5	8	1	Restaurants
+4231	ZLNa4ehr3fXdXfnlT7YVMQ	"""Houlihan's"""		"""RR 19"""	Bethel Park	PA	15102	40.3167073	-80.0423151	3.0	3	1	Restaurants
+4244	FHm69MlMvFv0rW-esmut-g	"""Sijan Plaza Restaurant"""	Cooksville	"""25 John Street"""	Mississauga	ON	L5A 1Y5	43.5843766	-79.6210645	2.5	3	1	Restaurants
+5304	TXNDK-DRjx2cfu7amxcIIA	"""Souvlaki Hut"""	Birchwood	"""1725 Lakeshore Road W"""	Mississauga	ON	L5J 1J4	43.5179024	-79.6228442	4.5	7	1	Restaurants
+5663	RGQbF6CYDTAgUL8SWb57Yw	"""Angelika's Schwäbischer Treffpunkt"""		"""Denkendorfer Str. 1"""	Ostfildern	BW	73760	48.7126	9.30123	4.0	5	1	Restaurants
+5977	0v7DIprUj2KASqg5PwqhUg	"""Burrell Inn"""		"""2734 Leechburg Rd"""	New Kensington	PA	15068	40.5904777	-79.7361609	4.0	6	1	Restaurants
+6139	qBbzhDrRWE9es1d3fwVeag	"""Restaurant Pacini"""		"""2001 Rue Leonard-De Vinci"""	Sainte-Julie	QC	J3E 1Z2	45.5762894	-73.332287	2.5	5	1	Restaurants
+7075	8doBZDMmgcrDGculGLpTDg	"""Gaststätte Edelweiss"""		"""Ringstr. 11"""	Filderstadt	BW	70794	48.6589	9.21839	3.0	3	1	Restaurants
+7083	lVX8HttxRTAdEdYX8zXy2g	"""Chateau Grec"""		"""97 Rue Saint-Pierre"""	Saint-Constant	QC	J5A 1G7	45.376441	-73.566502	3.0	4	1	Restaurants
+7745	LlLDMhhPeCKs4oyZxFQGaw	"""Zum Adler Gasthaus Weinstube"""		"""Alte Stuttgarter Str. 2"""	Stuttgart	BW	70195	48.7782	9.12474	5.0	3	1	Restaurants
+7752	Kh8Ctqf7z4S6OJ9F7EsVpA	"""Carl's Jr"""		"""7610 W Thomas Rd"""	Phoenix	AZ	85033	33.480668	-112.2225187	2.0	9	1	Restaurants
+7856	21QPpgP86hABa5ZmfLvooA	"""Freshii"""	Yonge and Eglinton	"""2300 Yonge St."""	Toronto	ON	M4P 2W6	43.7074247	-79.3990708	3.0	13	1	Restaurants
+8668	-Rw3wxbeHhZy6SURriXZ8g	"""Filion's Diner"""		"""7030 US Route 11"""	Churubusco	NY	12923	44.9264001	-73.9430569	4.5	9	1	Restaurants
+9472	Lk6Ns0g9w3TkZL7DbLrs-g	"""Hasen"""		"""Gablenberger Hauptstr. 91"""	Stuttgart	BW	70186	48.7764	9.2049	4.5	14	1	Restaurants
+9659	GhsjizVkrRDiIrYQP88bag	"""Outpost Bar & Grill"""		"""227 S Main St"""	Cottage Grove	WI	53527	43.0755979	-89.1999565	5.0	4	1	Restaurants
+11975	E-3M_52ITqNeX4ktuKx8SQ	"""Hometown Buffet"""		"""700 W Warner Rd"""	Chandler	AZ	85225	33.3355901	-111.8541465	2.5	3	0	Restaurants
+12067	5qdMR7QOcDtxAr92SCuYbA	"""Big Wong Restaurant"""		"""616 W Indian School Rd"""	Phoenix	AZ	85013	33.4951711	-112.0821332	4.5	5	0	Restaurants
+12357	wlRFPldYNvhGJVFwRjGN_A	"""Tryon House Restaurant"""	NoDa	"""130 Eastway Dr"""	Charlotte	NC	28213	35.258723	-80.777659	3.5	5	1	Restaurants
+15412	5rzN5BfqyaP5Y9s0KD8UBA	"""Irma La Douce"""		"""Katharinenstr. 21"""	Stuttgart	BW	70182	48.77242	9.18144	4.0	11	0	Restaurants
+15616	ngARCEpI58h0XMhD1nVQjg	"""Franks'pub & Grill 88"""		"""5454 Library Rd"""	Bethel Park	PA	15102	40.3246801	-80.025997	4.0	3	1	Restaurants
+15937	dqSHsdKjsLXP8lqloBDPXg	"""Sonic"""		"""647 E McKellips Rd"""	Mesa	AZ	85203	33.4514757	-111.8167229	2.0	16	1	Restaurants
+17343	K7rmxZmtoE0_U_40459TLg	"""Sucre"""	Capitol	"""20 W Mifflin"""	Madison	WI	53703	43.075216	-89.386276	3.5	3	0	Restaurants
+18228	2GN_Lmsf2KkKH5PHLWeEjg	"""Restaurant Alte Pfarrei"""		"""Sindelfinger Str. 49"""	Sindelfingen	BW	71069	48.722	8.96587	3.0	3	1	Restaurants
+18561	3QkeQGsghxmtHyK2q1_xsQ	"""CoCoLiquot"""	Capitol	"""225 King St"""	Madison	WI	53703	43.0744019	-89.379518	3.5	7	0	Restaurants
+19215	v8jZKf_YN7ayVy6ksyoiKg	"""Bamboo Garden"""		"""1720 Greensburg Ave"""	North Versailles	PA	15137	40.382532	-79.8184339	3.5	6	1	Restaurants
+19791	n3A4kXeCad9L-nfarSDY7A	"""Cafe 56 Grill"""		"""23230 Chagrin Blvd, Ste 105"""	Beachwood	OH	44122	41.463035	-81.515855	3.0	5	1	Restaurants
+20118	GZatj0-agCP8LJWf56THZg	"""Le Hangar"""	Sud-Ouest	"""1011 Wellington"""	Montréal	QC	H3C 2J2	45.4939623	-73.5569955	3.5	5	0	Restaurants
+20616	GZdipYHpXO5FzMPUk_sy7A	"""Select Grill"""	Lakeview	"""1250 South Service Road"""	Mississauga	ON	L5E 1V4	43.5928642	-79.5671924	4.0	7	1	Restaurants
+20800	IotFqwZTgTpFxO1ZtiZE-A	"""Restaurant Amir"""	Laval	"""2921 Boul De La Concorde E"""	Laval	QC	H7E 2B5	45.5919573	-73.6692725	3.5	3	1	Restaurants
+21421	f5IbaFDX4Rm1asJF-w5mJA	"""Pizzeria Pizzico"""		"""Daimlerstr. 69"""	Stuttgart	BW	70372	48.8016	9.22037	3.0	5	1	Restaurants
+21562	mOgLOq01wZ8MVAGjY7uYYg	"""The Green Room"""		"""138 Victoria Road"""	Scarborough	NYK	YO11 1SL	54.2802156	-0.4078675	4.5	3	1	Restaurants
+22164	IjhsNcbzBrAWkF3ghiSeOg	"""Shiraz Restaurant"""		"""9185 Yonge Street"""	Richmond Hill	ON	L4C 6Z2	43.8516526	-79.4316583	2.5	7	1	Restaurants
+22282	cry1N2qJNCpHlFEGK_EB2A	"""Log House Restaurant"""		"""10468 16th Rd"""	Argos	IN	46501	41.2443711	-86.2623544	4.0	12	0	Restaurants
+22796	DkaPGavPjjw9DWUmrZ19IQ	"""Church's Fried Chicken"""		"""4245 S Central Ave"""	Phoenix	AZ	85040	33.406983	-112.0730413	2.5	6	1	Restaurants
+22834	3Ca0qUk3X5dVGlk79w40hw	"""Trattoria"""		"""Flughafen Stuttgart, Terminal 3, Ebene 3, Flughafenstr. 43"""	Stuttgart	BW	70629	48.69	9.19286	1.0	3	1	Restaurants
+22860	460jD_G9H_AlIiBwaxplrQ	"""White House Chicken"""		"""1948 Portage Trl"""	Cuyahoga Falls	OH	44223	41.148029	-81.506325	1.5	3	1	Restaurants
+23301	VE8BouWadOixfUIljcdSZg	"""Aqua Lunch Eaton"""	Ville-Marie	"""705 Rue Sainte-Catherine O"""	Montréal	QC	H3B 4G5	45.5027545	-73.5714715	4.0	4	1	Restaurants
+23740	JMahS85NWAXQuyGLx3UlQQ	"""Inn Place Restaurant"""		"""7958 Steubenville Pike"""	Imperial	PA	15126	40.4415484	-80.2336999	3.5	7	1	Restaurants
+24471	Y9UvlMorn7G4mxzwN5QpsQ	"""Petit Tokebi Le"""	Notre-Dame-de-Grâce	"""6707 Sherbrooke Rue W"""	Montreal	QC	H4B 1P3	45.462188	-73.632342	3.5	3	1	Restaurants
+24806	jfmvrr8nfuNyEcBL945CUA	"""Xeno's Bistro & Bar"""		"""250 Bayly Street"""	Ajax	ON	L1S 7S9	43.8421139	-79.027628	3.0	3	0	Restaurants
+24916	mxsgQr4mugtFCsu8ZqzFLA	"""Luchita's In Mentor"""		"""8870 Mentor Ave"""	Mentor	OH	44060	41.673803	-81.322792	2.5	3	1	Restaurants
+25379	v9ZTkc7LsX8hBhM8zW61wQ	"""Chenoy's Charcuterie Et Maison De Bifteck"""		"""6200 Boul Taschereau"""	Brossard	QC	J4W 3J8	45.4741756	-73.4674748	3.0	8	0	Restaurants
+25592	edlXmSlEUsxm5PhDjsB0yw	"""French Coffee Shop"""		"""1911 Bailey Rd"""	Cuyahoga Falls	OH	44221	41.1323861	-81.4655162	4.0	14	0	Restaurants
+26517	oH6Yx_xIzeEAqRCEqW1xVQ	"""Ruppmannschänke"""		"""Ruppmannstr. 38"""	Stuttgart	BW	70565	48.7253	9.11678	4.5	5	1	Restaurants
+27036	6fsYPoLR8064d20UvTMLjw	"""Pinata Nueva"""		"""3655 West Anthem Way"""	Anthem	AZ	85086	33.8645716	-112.1392751	2.5	3	0	Restaurants
+27448	wFBvqxzfkPgzG2EmGKcguw	"""Office the"""		"""214 W Main St"""	Urbana	IL	61801	40.112708	-88.209562	2.0	4	0	Restaurants
+27851	OQybCnZk7wG1YaAnlkmDlw	"""Burger King"""		"""5021 Som Center Rd"""	Willoughby	OH	44094	41.6242067	-81.4394409	2.0	3	1	Restaurants
+28269	q2HvtPAuc9g3v2B0AjTSFw	"""Magoos Lodge"""		"""1817 N Boulder Hwy"""	Henderson	NV	89011	36.063526	-115.009721	4.0	6	1	Restaurants
+28837	nCdaVPPQ3UxpKWqM2qYnGg	"""Souper Salad"""		"""8940 E Indian Bend Rd"""	Scottsdale	AZ	85250	33.5403037	-111.8888855	2.5	3	0	Restaurants
+28866	C38D2WDOLs7Pzb-50MeQqQ	"""Bürgerstüble Region. u. Intern. Küche A. Wendt Gastronomie"""		"""Seestr. 2"""	Ludwigsburg	BW	71638	48.89571	9.19029	3.0	4	1	Restaurants
+29455	zdW81Pk8Q3jA5sMj9AHOrA	"""La Salsita"""		"""3827 N 43rd Ave"""	Phoenix	AZ	85031	33.4923361	-112.1513343	3.0	15	1	Restaurants
+29943	3Iega7lJMJ9rCtN131qfNQ	"""Brasserie Max"""		"""Wettbachstr. 2"""	Sindelfingen	BW	71063	48.7081	8.99914	2.5	5	1	Restaurants
+30080	yTcLNsAh8B_Q9gJuLhryjQ	"""Unlv Dining"""	University	"""4505 S Maryland Pkwy"""	Las Vegas	NV	89119	36.1053148	-115.1388739	2.5	9	1	Restaurants
+30231	I7yKjeRgOcGfk0JzPI8SXQ	"""Fuddruckers"""		"""7145 E Indian School Rd"""	Scottsdale	AZ	85251	33.494651	-111.927127	3.0	8	0	Restaurants
+30299	o_W4cyIyPMZT4aNXbDT_uw	"""Jack-In-the Box Drive Thru"""		"""7116 E Shea Blvd"""	Scottsdale	AZ	85254	33.582512	-111.9275298	3.0	11	1	Restaurants
+30797	eE13PjPNjRdIcOwIQzqjnw	"""Maietta Restaurant"""	Mt. Oliver	"""203 Brownsville Rd"""	Pittsburgh	PA	15210	40.415694	-79.98694	4.0	7	1	Restaurants
+30852	ZU-b4xilNsKbEakkVgwDqg	"""The Lakes Restaurant At Westbrook"""		"""19260 N Westbrook Pkwy"""	Peoria	AZ	85382	33.6592685	-112.2659175	3.5	3	1	Restaurants
+30871	9tK5ibv58TxxpndehLXjDg	"""Red Room Cafe"""	Shadyside	"""134 S Highland Ave"""	Pittsburgh	PA	15206	40.4599315	-79.9253597	3.0	18	0	Restaurants
+31205	PHYeWfCWUBAbaZyijI-4AQ	"""Cafe Terrasse 1957"""		"""305 Rue Saint-Charles O"""	Longueuil	QC	J4H 1E5	45.537366	-73.51155	3.5	3	1	Restaurants
+31212	nR7OLabbdFsEQCzEz2D3_A	"""Giorgio (Les Restaurants Amerique Ltee)"""	Ville-Marie	"""222 Saint-Laurent Boul"""	Montréal	QC	H2Y 2Y3	45.5054105	-73.5536946	2.5	3	1	Restaurants
+31276	fWigCF8lGj3pnIqSUG-ujQ	"""Libby's Pit Stop"""		"""1801 N Cannon Blvd"""	Kannapolis	NC	28083	35.5194559	-80.6126719	3.5	5	1	Restaurants
+31354	I24pVfCFcQXBU6cbw3cTbA	"""Marvellous Edibles"""		"""120 Laird Dr"""	East York	ON	M4G 3V3	43.7069028	-79.3622402	3.5	5	0	Restaurants
+31560	_pB9835LgzF1fSXciADWzQ	"""Autentica Foods Empanadas"""		"""9 Milvan Drive"""	North York	ON	M9L 1Y9	43.7511797	-79.552238	3.0	4	1	Restaurants
+33335	WSQEZC8mL9M6CIITBdhVjQ	"""Kirchtal"""		"""Markgröninger Str. 46"""	Stuttgart	BW	70435	48.8336	9.17012	5.0	4	1	Restaurants
+33856	yFhUWJ73ax8Tr2BawHvLxg	"""Reggie's All Family Restaurant"""		"""4065 State Rd"""	Cuyahoga Falls	OH	44319	41.1823829	-81.5080936	2.5	6	0	Restaurants
+34160	qCZrKe8igS10txtGW3ZV1Q	"""Atlanta Bread Company"""	Westside	"""9785 W Charleston Blvd"""	Las Vegas	NV	89117	36.1577188	-115.3111025	3.0	5	0	Restaurants
+34481	Yn44IQ3dLCol_Iv6DYVaPQ	"""Restaurant Steinhalde"""		"""Steinhaldenstr. 41"""	Stuttgart	BW	70378	48.8193	9.23605	4.0	3	1	Restaurants
+34519	CcrCrPIfG2o9Jpz6qg3D_w	"""Mr Hero"""		"""16473 Broadway Ave"""	Maple Heights	OH	44137	41.4125207	-81.5653265	3.0	4	1	Restaurants
+35473	7wDO7NB8DPrynZL6OcCAhA	"""Fuchsia (Le)"""	Ville-Marie	"""2000 Rue Sainte-Catherine O"""	Montréal	QC	H3H 2T2	45.491284	-73.5814726	4.0	4	1	Restaurants
+36076	iClqsxNArejGm3DUgg0j_w	"""Continental Restaurant"""	Plateau-Mont-Royal	"""4169 Rue Saint-Denis"""	Montréal	QC	H2W 2M7	45.5217801	-73.5777515	4.5	4	1	Restaurants
+37571	9M13M8YhFrKeLEG86xfWMw	"""Mojo Bistro"""	Bellevue	"""172 Lincoln Ave"""	Bellevue	PA	15202	40.49123	-80.0474317	4.5	3	0	Restaurants
+37750	gG7dzmgsGecSNR-WmKSlpw	"""Xxxl Häusle"""		"""Talstr. 17"""	Freiberg	BW	71691	48.9404	9.19854	4.0	4	1	Restaurants
+37830	5Q4Gw1pyZnG8IlFNozxIlw	"""Native New Yorker Restaurant"""		""""""	Gilbert	AZ	85233	33.3519301	-111.8210866	3.0	18	1	Restaurants
+38596	iDdDQDyvjYJ-YxeUjBMFsg	"""City Tavern"""	Dilworth	"""1514 East Blvd"""	Charlotte	NC	28203	35.199979	-80.8423339	3.5	4	0	Restaurants
+38742	pyOPqNtvT5MVyahLrSXo1Q	"""Montrose Restaurant"""	Notre-Dame-de-Grâce	"""6550 Somerled Av"""	Montréal	QC	H4V 1S9	45.4669211	-73.6387762	2.0	4	1	Restaurants
+38843	oHvo9vcYoOC36pLkCFUQjw	"""Burger King"""		"""1900 Cooper Foster Park Rd W"""	Lorain	OH	44053	41.4186302	-82.2006773	1.5	3	1	Restaurants
+38954	e7QI_pSH4klvYcHx7Lkx9g	"""Thaifoon Taste of Asia"""		"""8777 N Scottsdale Rd"""	Paradise Valley	AZ	85253	33.5649765	-111.9255543	2.0	4	0	Restaurants
+39174	3LWTG3f52gdVZILl42FCAg	"""Vogue Bistro"""		""""""	Surprise	AZ		33.6390991211	-112.395759583	3.5	8	1	Restaurants
+39466	v1qrnmnj_t7OoqBX_jHWVA	"""Good2Go"""	The Strip	"""3475 Las Vegas Blvd S"""	Las Vegas	NV	89109	36.1193098	-115.1717702	2.5	3	1	Restaurants
+40251	742D-FQL6glg1ek71G4R2w	"""Philadelphia Steak & Hoagie"""	The Strip	"""3200 Las Vegas Blvd S"""	Las Vegas	NV	89109	36.1270605395	-115.169334412	1.5	19	1	Restaurants
+40402	zhwqX2uk3XF_fwtwLj397A	"""Rock Bottom Restaurant & Brewery"""	West Bank	"""2000 Sycamore St"""	Cleveland	OH	44113	41.4965537	-81.7039	3.5	9	0	Restaurants
+41719	nOOFiJqPddK8QL1Wfw1wZQ	"""Restaurant Shehrazad"""	Ville-Marie	"""1242 Crescent Rue"""	Montréal	QC	H3G 2A9	45.4967836	-73.5752447	4.5	3	1	Restaurants
+43576	7nPrP_cikNWYz297F4EYRw	"""Big Horn Cafe"""		"""6725 Lee Canyon Rd"""	Las Vegas	NV	89124	36.3037622	-115.6796317	3.0	6	1	Restaurants
+43852	o05KsPVYO6dwjaxWuglkDw	"""Chen's Cooking Wok & Grill Restaurant"""		"""Stammheimer Str. 45"""	Stuttgart	BW	70435	48.8355	9.16346	3.0	26	1	Restaurants
+44082	PqK2XJYjqTtwMj8WQ4e88w	"""Cortina's Family Restaurant"""		"""22681 Euclid Ave"""	Euclid	OH	44117	41.5736815	-81.523593	4.0	8	1	Restaurants
+45090	PlvGov54Rl7v4LZNT7zIeA	"""Dejeuner Eggcetera"""	Saint-Léonard	"""6400 Jean-Talon Rue E"""	Saint-Leonard	QC	H1S 1M8	45.5913765	-73.5756693	3.0	6	0	Restaurants
+45105	PF92sz2mnoGS5viOuFX_Wg	"""Seebruckenmühle"""		"""Seebruckenmühle 3"""	Leinfelden-Echterdingen	BW	70771	48.6784841	9.1276526	4.5	8	0	Restaurants
+46905	t23jdrNUOjVa7WMxdSbHMA	"""Restaurant La Porte Grecque Enr"""		"""1900 Rue De La Visitation"""	Saint-Charles-Borromée	QC	J6E 7Y8	46.0670069	-73.490804	3.0	3	1	Restaurants
+47217	L4WXLHf2p_qoLgiPwzTSgA	"""Hardee's"""		"""326 S Century Blvd"""	Rantoul	IL	61866	40.3069842	-88.1562185	1.5	9	1	Restaurants
+47409	LsBLKGlaoXxmr_n-r6of0A	"""Halite"""	Ohio City	"""2800 Clinton Ave"""	Cleveland	OH	44113	41.4888735	-81.7090104	4.5	3	0	Restaurants
+47676	_7bPSTUk_FZvomYjawpdhA	"""Country Cottage"""		"""236 S Wall St"""	Chandler	AZ	85225	33.2994159	-111.8421862	3.5	3	0	Restaurants
+48016	V_CzgZ8maFoKv9t-LgcjDg	"""Metropolitan Cafe"""	Warehouse District	"""1352 W 6th St."""	Cleveland	OH	44113	41.4992836	-81.6985549	3.5	4	0	Restaurants
+48272	l7ccL0HeTOnM4_iVgp_ZqA	"""Seidels Salatbar und mehr..."""		"""Asperger Str. 4"""	Ludwigsburg	BW	71634	48.8975	9.18969	3.5	6	1	Restaurants
+49048	EY6MJh_gO5mqjyT8rPsAlQ	"""Bourbon Street Grill"""		"""11025 Carolina Place Pkwy, Ste Fc9"""	Pineville	NC	28134	35.0822	-80.8772242	2.5	3	1	Restaurants
+49139	ziRufHdo6FiMjkTKMwAr7g	"""Villa Madina"""	Etobicoke	"""25 The West Mall"""	Etobicoke	ON	M9C 1B8	43.6112889	-79.5568671	3.0	3	0	Restaurants
+49168	flCEQ7EGDoIO1-4FyLh2OQ	"""McDonald's"""		"""14522 Lawyers Rd"""	Matthews	NC	28104	35.1418387	-80.6236933	2.5	14	1	Restaurants
+49301	kEdCejKhN7n8DZJriHKBlA	"""Sunrise Family Restaurant"""		"""1052 W Main St"""	Stoughton	WI	53589	42.917425	-89.232736	3.0	11	1	Restaurants
+49833	jN3dFXrN7y-fntO__BBJ2g	"""Agave Southwest Bar and Grill"""		"""16770 N Perimeter Dr"""	Scottsdale	AZ	85260	33.6380414	-111.8965896	3.5	13	1	Restaurants
+50217	6P8KUfiYyfsRM-HFS6uvYQ	"""Restaurant Le Bidon Enrg"""		"""333 Ch Larocque"""	Salaberry-De-Valleyfield	QC	J6T 4C1	45.2451369	-74.1285367	4.0	3	1	Restaurants
+50448	Vj7wI_yuB2QhECoriinI7g	"""5 Fools"""		"""9566 Perry Hwy"""	Pittsburgh	PA	15237	40.5807835	-80.0378151	2.5	3	1	Restaurants
+50543	yxAw_NtCqtvFPXGq4C1f5A	"""The Cedar Kitchen"""		"""5 Queen Street S"""	Tottenham	ON	L0G 1W0	44.0222898	-79.8054985	4.0	11	1	Restaurants
+50681	JL42sdCzD5WV_gkNWublxA	"""Pueblo Viejo"""		"""16615 N Cave Creek Rd"""	Phoenix	AZ	85032	33.6373518	-112.0307766	4.0	9	1	Restaurants
+50822	MaiS2GYrtOGQNOdQAjsXBg	"""Resto Nouveau Systeme"""	Rosemont-La Petite-Patrie	"""323 Beaubien Rue E"""	Montréal	QC	H2S 1R9	45.5331592	-73.6059795	3.5	7	1	Restaurants
+51567	F-256nqXyfo91fev3ZES1A	"""Auslers Grill"""		"""1339 E Chandler Boulevard"""	Phoenix	AZ	85048	33.305374	-112.0538053	5.0	4	0	Restaurants
+51932	pfqHGEB1lyXw6bWwt1ouoQ	"""Roasting Oven & Grill"""		"""3700 Avenue of the Carolinas Ste 114"""	Fort Mill	SC	29708	35.0993019	-80.9337785	3.5	4	0	Restaurants
+52279	j_BZ2A5XEQSd-k7yH-S_Pw	"""Wilder Foods"""	The Junction	"""382 Keele Street"""	Toronto	ON	M6P 2K8	43.6657238	-79.4648144	4.5	6	1	Restaurants
+52342	lYlVsbhDrglWDdhh7OTM2w	"""Rendezvous Cafe"""		"""2341 N Rainbow Blvd"""	Las Vegas	NV	89108	36.2029728	-115.2424433	4.5	7	0	Restaurants
+52429	bW41L1IMuhVfm9pASeJyig	"""Studzio"""	Plateau-Mont-Royal	"""4147 Rue Saint-Denis"""	Montréal	QC	H2W 2M7	45.521695	-73.577397	3.0	3	1	Restaurants
+52613	a8Ta92zOAT7VFsRwcDACAw	"""Restaurant La Pataterie"""	Mercier-Hochelaga-Maisonneuve	"""3860 Ontario Rue E"""	Montréal	QC	H1W 1S4	45.5477779	-73.5427807	4.5	7	1	Restaurants
+54256	t0ES8oYbYGGMpitcqAbmmw	"""dockseven"""		"""Neckarstr. 7"""	Esslingen	BW	73728	48.7384761	9.302858	3.0	15	0	Restaurants
+54491	9DLBwCS4hu_xaiENCbYXbQ	"""Chae Chester Fried Chicken Express"""		"""23 Howard Street"""	Toronto	ON	M4X 1J6	43.6711057	-79.3751345	3.0	4	1	Restaurants
+55329	MPTgNKfAKu_0KZ4Gc3FcUg	"""Gaststätte Alte Hupe"""		"""Adlerstr. 41"""	Stuttgart	BW	70199	48.7642	9.1625803	5.0	5	1	Restaurants
+55658	p3RUmQhsTjErcorfD6zunA	"""Lee's Kitchen"""	Unionville	"""5694 Highway 7"""	Markham	ON	L3P 1B4	43.8719979	-79.2689475	3.5	3	1	Restaurants
+56697	6wIYfbHsjwImrmbVyabECA	"""Park-Restaurant"""		"""Schillerstr. 30"""	Fellbach	BW	70734	48.8072	9.27003	2.0	6	1	Restaurants
+56797	jKWlzATM7kE3QPhsb0EaOA	"""Oriental City Restaurant"""		"""2539 Eglinton Ave W"""	York	ON	M6M 1T2	43.690763	-79.4718561	3.5	5	1	Restaurants
+57068	Tne2tfl0S0iLre2O5XALvQ	"""Shabu Fondue"""		"""3400 W Chandler Blvd # 5"""	Chandler	AZ	85224	33.3223	-111.8767	3.0	10	0	Restaurants
+57119	X94hpx48QK-v8MmV0YLK7A	"""Dish"""		"""8977 N Scottsdale Rd"""	Scottsdale	AZ	85253	33.5673816	-111.9259298	3.5	15	0	Restaurants
+57834	3bWhLIt3B8FQh6zIdQLKvg	"""itchycoo"""	Royal Mile	"""Royal MIle"""	Edinburgh	EDH	EH1 1PT	55.9505556	-3.1855556	3.5	6	1	Restaurants
+58679	mf-B8VvMmbf9jn57czKFmQ	"""Java"""		"""Church Street, Town Centre"""	Inverness	HLD	IV1 1HX	57.4792983	-4.2272758	3.5	3	1	Restaurants
+58843	LXT6wvHL8kjvWeJIkAmjog	"""Restaurant bei Schwejk"""		"""Zimmerstr. 49"""	Sindelfingen	BW	71063	48.7113	8.99595	4.5	15	1	Restaurants
+58855	LtblRSvfHRfhNxsfa8HlpQ	"""Nem"""		"""Grazer Str. 27, Feuerbach"""	Stuttgart	BW	70469	48.8097	9.16023	4.5	5	1	Restaurants
+58921	6wE8dDtLMrtEa3Pz7MWQMw	"""Mogie's Restaurant & Irish Pub"""		"""3210 Leechburg Rd"""	New Kensington	PA	15068	40.5851774	-79.7101601	3.5	5	1	Restaurants
+58979	CiYamRWo4h61K81MojTeFA	"""Ocean Palace"""		"""414 Tom Hall St"""	Fort Mill	SC	29715	35.0070559	-80.9355871	3.5	19	0	Restaurants
+60375	Rb--4XLjxg-kvuqiF6McKw	"""Restaurant Pacini"""		"""1451 Ch De Chambly"""	Longueuil	QC	J4J 5C6	45.530956	-73.4850663	2.5	3	1	Restaurants
+60469	5VA4XYx2lbA2RTe9xuLZUw	"""Plum Dairy Queen"""		"""RR 286"""	Murrysville	PA	15668	40.464746	-79.6614376	2.5	4	1	Restaurants
+60814	85O611J7pu-B_MNIBB3Rwg	"""Restaurant mo.town"""		"""Hauptstr. 26"""	Stuttgart	BW	70563	48.7299794	9.1075089	3.0	5	1	Restaurants
+60929	XHzwOBWa0dOu8_oLCJxO9Q	"""KFC Inverness Food Court Restaurant"""		"""Unit 4 Eastgate Centre"""	Inverness	HLD	IV1 1LQ	57.4793272	-4.2229777	3.5	3	1	Restaurants
+60935	zRB-RAlOM2QVw8uxGThcJg	"""Restaurant Dragon de Chine"""	Verdun	"""4596, rue de Verdun"""	Verdun	QC	H4G 1M3	45.4588258	-73.5715669	2.5	9	1	Restaurants
+62504	7qSKib3m1hlKtDFwb_BbWA	"""Gaststätte Linde"""		"""Eltinger Str. 9"""	Stuttgart	BW	70195	48.7784733	9.1246797	4.5	3	1	Restaurants
+62641	qz-FPt6cXEsaigXST69wVw	"""A La Japonaise Experience Teriyaki"""	Ville-Marie	"""705 Rue Sainte-Catherine O"""	Montréal	QC	H3B 4G5	45.5027545	-73.5714715	3.0	4	1	Restaurants
+62757	WFUcb6biYQcwvUjRltnw_Q	"""Firebirds Corporate Office"""	Ballantyne	"""13850 Ballantyne Corporate Pl"""	Charlotte	NC	28277	35.0630141	-80.8558773	2.0	3	1	Restaurants
+62953	6aImh7Tu2RS90AxCg3W3YA	"""Sugar Daddy's"""		"""3102 N Scottsdale Rd"""	Scottsdale	AZ	85251	33.4833171	-111.9266653	2.5	16	0	Restaurants
+63068	DAok30E1R0nPLNFathadTQ	"""Bak'd"""		"""156 W Main St."""	Mesa	AZ	85209	33.4152626	-111.8360987	4.5	3	0	Restaurants
+63155	ko0XYJL0KkRqj-z5XkXP-w	"""Wartburg-Tolleranz"""		"""Gutenbergstr. 87"""	Stuttgart	BW	70197	48.7707633	9.1557995	3.0	6	0	Restaurants
+63286	de2ezuGAKPYjHA8pYNnd6g	"""Extreme Pita"""	Downtown Core	"""Bay Adelaide Centre, 333 Bay St"""	Toronto	ON	M5H 2S8	43.6503406	-79.3805207	2.0	4	1	Restaurants
+64203	KkpX5EdixY0C5gUq8BcmCA	"""J & J's Burgers & Beer"""		"""1500 E US Highway 36"""	Camargo	IL	61919	39.7916937	-88.1899938	5.0	3	1	Restaurants
+65658	rrExJZcQaLa8Omd-NSjtcg	"""Hop Feng Kitchen"""		"""2504 Little Rock Rd, Ste C"""	Charlotte	NC	28214	35.2461067	-80.9381321	3.5	11	1	Restaurants
+65692	iPaXQP-JQCvwHV5D8RFTIg	"""North Park Brew N Bistro"""		"""20630 N Park Blvd"""	Cleveland	OH	44118	41.4868054	-81.5356093	3.5	4	0	Restaurants
+65695	nCYl3WVd8jsRUqbSyMlFrA	"""Yamato Sushi"""		"""1970 Rue Leonard-De Vinci"""	Sainte-Julie	QC	J3E 1Y8	45.5771775	-73.3308537	2.5	3	1	Restaurants
+66431	w-wv1PCZ4sWFXwYHBNY5Nw	"""Konak"""		"""Kelterstr. 90"""	Kernen	BW	71394	48.8009	9.31538	4.0	5	1	Restaurants
+66517	IYASJOu_TXz8PpPbt-Clbg	"""Sushi San"""		"""1401 W Green St"""	Urbana	IL	61801	40.109243	-88.227253	2.0	4	1	Restaurants
+66723	8nFa9IbgynhsZlC7eYbcWA	"""Villa Armando"""	Mont-Royal	"""3201 Graham Boul"""	Mont-Royal	QC	H3R 1K1	45.508986	-73.660649	4.5	7	1	Restaurants
+67281	7lzVV1MgcDb_gIndt0Oryg	"""Rocky's II"""	North Side	"""1562 Island Ave"""	Pittsburgh	PA	15233	40.4619041	-80.0328033	3.5	3	1	Restaurants
+67560	vBV9TEGfaBWw_uXJn8-J1g	"""Mr Hero"""	Stockyards	"""7134 Denison Ave"""	Cleveland	OH	44102	41.4625115	-81.737379	2.5	3	1	Restaurants
+67612	1PpxBdNp8LeyeFXd2emfaA	"""34 Easy St"""		"""34 Easy St"""	Carefree	AZ	85377	33.825219	-111.922644	3.5	3	0	Restaurants
+68482	icc3AqUJ0Qr5VbMNxfcOlg	"""Scruffy's Irish Pub Restaurant"""	East Credit	"""30 Eglinton Avenue W"""	Mississauga	ON	L5R 3E7	43.6056278	-79.6528097	2.5	5	0	Restaurants
+68612	kDIDf6LRDlky3nJDtcbWvg	"""West River Cafe"""		"""24517 Sprague Rd"""	columbia station	OH	44028	41.3507725	-81.9057784	3.0	3	1	Restaurants
+69301	6WdKJJbK6EC5R8PKGWMsng	"""Katherine's Family Restaurant"""		"""7533 Pearl Rd"""	Cleveland	OH	44130	41.3602031	-81.8140622	3.0	13	1	Restaurants
+71113	h2LsnxuYiJdJoGwKjRjHVg	"""Grill San Antonio's"""		"""1368 Montee Masson"""	Lachenaie	QC	J6W 6A6	45.7190688	-73.6229052	4.0	4	1	Restaurants
+72806	4fMwSAmby7wPkkEFw19xdg	"""Sandey's Broaster Chicken"""		"""1155 S Higley Rd"""	Mesa	AZ	85205	33.3943265	-111.7187796	2.5	3	1	Restaurants
+73660	iGWSHEl48XY4cy_25s4WvA	"""Carl's Jr"""		"""2343 E Bell Rd"""	Phoenix	AZ	85022	33.6400298	-112.031334	2.0	6	1	Restaurants
+74069	TZkwffx18AmMh9Yric5LjA	"""Villa Risi"""		"""16995 Yonge Street"""	Newmarket	ON	L3Y 5Y1	44.0424914	-79.4769741	5.0	4	1	Restaurants
+74325	xZW9EnUBx4A5eIR-H6OAxw	"""Nouveau Notre Dame du Vieux Montreal"""	Ville-Marie	"""237 Notre-Dame Rue Ouest"""	Montréal	QC	H2Y 1T4	45.5034096	-73.5580684	3.5	3	0	Restaurants
+74492	vnQ9a0e_DuS4MC9nyEbA5A	"""E Go Cafe"""	Eastside	"""3400 Paradise Rd"""	Las Vegas	NV	89169	36.127239	-115.1544161	2.5	5	1	Restaurants
+75076	uZA-odma2Uje_kQ8ETl42A	"""Ruby's Diner"""		"""3111 W Chandler Blvd Ste 2146"""	Chandler	AZ	85226	33.3016651	-111.8980181	4.5	3	0	Restaurants
+76736	YJmz9EVZBgSVdzq_U-vspQ	"""Carlisle Cafe"""		"""1509 Grafton Rd"""	Elyria	OH	44035	41.3458081	-82.0967214	3.0	4	1	Restaurants
+77265	liLRXHaS5x4vy8EJq5fh9g	"""Arthurs's At Wachovia"""	Uptown	"""1 Wachovia Ctr"""	Charlotte	NC	28202	35.223805	-80.844616	3.0	5	0	Restaurants
+78078	MI6lN3k763LxTuy8or3YFA	"""Carrie's Cafe"""		"""13576 W Camino Del Sol"""	Sun City West	AZ	85375	33.6561971454	-112.353707038	2.5	15	1	Restaurants
+78337	-UtYWvCnUppcSaC_u1pTYQ	"""Kopper Keg Restaurant & Lounge"""	Southeast	"""4550 E Tropicana Ave"""	Las Vegas	NV	89121	36.1003637	-115.0746097	4.0	4	1	Restaurants
+78426	7VDPbjAVa2mlFeIGC-_mpw	"""Fire Rock Restaurant"""	Centennial	"""W Tropical Pkwy"""	Las Vegas	NV	89149	36.2700062965	-115.292738155	2.0	5	1	Restaurants
+78815	ap0GRotcSZ32qL6UZrZTrA	"""Asian Rice Bowl"""		"""3075 Clairton Rd"""	West Mifflin	PA	15123	40.3383907	-79.9421587	4.0	4	0	Restaurants
+79242	mTT8-bFA8t9HqHuTbr2xfQ	"""Zum Besenwirt"""		"""Ziegelstr. 33"""	Sindelfingen	BW	71063	48.7105	9.00101	2.5	4	1	Restaurants
+79605	cUg_W6LhLdisAYA-Ut23fg	"""Times Square Pizzeria"""		""""""	Glendale	AZ	85301	33.5349253	-112.1847509	5.0	3	1	Restaurants
+79777	Wjdsdo1k-iBX0UtaYRuZ0g	"""Red Robin"""		"""10214 North Metro Pkwy W"""	Phoenix	AZ	85021	33.5750555	-112.1213732	3.0	4	1	Restaurants
+80117	a8j5mR_0voS8lSMnkVF5-w	"""Jack-In-the Box Drive Thru"""		"""141 N Arizona Ave"""	Chandler	AZ	85225	33.3053941	-111.8410387	2.5	3	1	Restaurants
+80338	ZgrKt3GU8vYyeE7pqSUkkQ	"""Wild Horse Cafe"""	Northwest	"""Foothills Ranch Casino, 3377 N Rancho"""	Las Vegas	NV	89130	36.2198939	-115.215478	2.5	3	0	Restaurants
+80657	moABwkrqpsZyUX3DbCxm9w	"""Castle Restaurant"""		"""41 Castle Street"""	Inverness	HLD	IV2 3DU	57.4767796	-4.2241927	3.5	20	1	Restaurants
+82520	_nTj5559fsO0zFh_XQvGzw	"""Restaurant Mama Bravo"""	Ile-Perrot	"""475 Grand Blvd, Ste 2"""	L'ile-Perrot	QC	J7V 4X4	45.3876618898	-73.9661258127	4.0	7	1	Restaurants
+82884	5sphAhVL85z6QW4dCjwCUg	"""Restaurant Weissenhof"""		"""Heilbronner Str. 21"""	Stuttgart	BW	70191	48.798878	9.1865335	3.5	8	1	Restaurants
+85354	YDjpFw_K46BW9Wf9c8izzA	"""Subway"""	Regent	"""2216 University Ave"""	Madison	WI	53726	43.0727654	-89.4248377	1.5	3	0	Restaurants
+85510	XOvQUSHUjE0KkUuwDUR5OA	"""Gil's Cafe"""		"""2700 Brownsville Rd"""	Library	PA	15129	40.2909757	-79.9973439	2.5	11	1	Restaurants
+85795	pL-Tr6y5hvWG_Ngbzg47DA	"""Hoot's"""		"""3115 Walnut St"""	McKeesport	PA	15132	40.33078	-79.842895	4.0	6	1	Restaurants
+86395	In40RdpOFRtbp6KUo7aEmw	"""Restaurant Ezo Daou"""	Ahuntsic-Cartierville	"""9440 De L'acadie Boul"""	Montréal	QC	H4N 1L7	45.5340016	-73.6595116	4.0	9	1	Restaurants
+86563	AsmN2ZqAlO9gl3EQpwrquQ	"""Sportheim Gebersheim"""		"""Mühlstr. 13"""	Leonberg	BW	71229	48.8008742	9.0077679	3.5	3	0	Restaurants
+86654	sTCI-NaZBkpujXnc-JS2RA	"""Khushi's Diner"""	Newington	"""32b West Nicholson Street"""	Edinburgh	EDH	EH8 9DD	55.9445551	-3.1852514	3.5	10	0	Restaurants
+87211	vVepgm7qDFMQic_z2H3UzA	"""Restaurant Saint-Sauveur(Le)"""		"""236 Rue Principale"""	Saint-Sauveur	QC	J0R 1R0	45.894349	-74.1576497	3.0	5	1	Restaurants
+87281	8uZnaFNhVudIN_3FfqRKGQ	"""Alte Post"""		"""Schozacher Str. 24"""	Stuttgart	BW	70437	48.8323	9.18549	3.5	4	1	Restaurants
+87285	GPZW0YVtzk5L5o2_9CF2Og	"""South Street Burgers"""		"""Vaughan Mills Shopping Centre, 1 Bass Pro Mills Drive"""	Vaughan	ON	L4K 0A2	43.8277063159	-79.5373647124	3.0	3	1	Restaurants
+88224	okeUtkqtXlc8fjGuduJubg	"""Black Bear Inn"""		"""320 W Cottage Grove Rd"""	Cottage Grove	WI	53527	43.0861154	-89.2070621	3.0	16	1	Restaurants
+88584	U8ypUjl42xwqh5ecQsbptw	"""Lake Todd Fish Camp"""		"""5905 Alexander Rd"""	Concord	NC	28027	35.4946239	-80.7234776	4.0	7	1	Restaurants
+89703	TNQfCB929TbkUdWLn0afLA	"""Layalena"""		"""1290 N Scottsdale Road"""	Tempe	AZ	85281	33.4426352	-111.9265732	2.5	3	0	Restaurants
+89777	vLPZEz1QEowJPfvlJR62GQ	"""VfB-Club-Restaurant Schmieg Gastronomie"""		"""Mercedesstr. 109"""	Stuttgart	BW	70372	48.7894	9.23404	3.0	4	0	Restaurants
+91658	_2ql5K9XZDk0lYiEgdmlLg	"""Masala Cafe"""		"""59 Four Winds Drive."""	Toronto	ON	M3J	43.7631541503	-79.4988469407	2.5	3	1	Restaurants
+92270	08AqwKb4NlV43qCYLuiVIQ	"""Eddie Matney's"""		"""2398 E Camelback Rd Ste 275"""	Phoenix	AZ	85016	33.5100117	-112.0308597	5.0	3	0	Restaurants
+92638	WPHnaP6srDmQiA8rcz9a8A	"""Arby's Restaurants"""		"""9346 State Route 14"""	Streetsboro	OH	44241	41.2400145	-81.3487537	3.0	3	0	Restaurants
+93648	lD5lowsGjnU71NzA1L3-hA	"""Schoop's Hamburgers"""		"""9151 Las Vegas Blvd S, Ste 342"""	Las Vegas	NV	89162	36.175	-115.136389	3.0	5	0	Restaurants
+93978	yN1FrEmAH_W3STP4F7d2nQ	"""Imbiss Restaurant"""	Mount Pleasant and Davisville	"""258 Eglinton Ave E"""	Toronto	ON	M4P 1K2	43.7085032	-79.3904657	2.0	4	0	Restaurants
+94275	axkqw5eKmlDqNagXjQat-Q	"""Tuscany Too"""		"""6 Filey Road"""	Scarborough	NYK	YO11 2SD	54.2712006544	-0.4021987124	4.0	7	1	Restaurants
+94439	MOB5oCEKCw3S76SsiuQjqA	"""Mary Be Kitchen"""	Yonge and St. Clair	"""21B St. Clair Avenue W"""	Toronto	ON	M4V 1K6	43.6876678	-79.3948586	4.0	9	1	Restaurants
+95659	1pGb5gi2SMkKmAWWArvu2A	"""Peggy's Lunch Box"""		"""10255 Northfield Rd"""	Northfield	OH	44067	41.337838	-81.5297849	4.0	13	1	Restaurants
+95810	FXNa72JCrnGx1wMKw7LAew	"""Restaurant Theater Friedenau"""		"""Rotenbergstr. 127"""	Stuttgart	BW	70190	48.7879	9.21195	3.0	4	1	Restaurants
+96571	MsMe7gI4WZf6DjmQKqNweg	"""Alfredo's Deli"""		"""905 W Hatcher Rd"""	Phoenix	AZ	85021	33.5710245	-112.0847	4.0	6	1	Restaurants
+96919	htukE-iB6K8Yn2q5W4bI_A	"""Cheese Mo'z Coal Fired Pizza"""	Ballantyne	"""8410 Rea Rd., Ste. 100"""	Charlotte	NC	28277	35.0535545	-80.8116203	2.5	7	0	Restaurants
+97051	1NbNo3v8XO9Sze_nqG2fyg	"""Lone Star Steakhouse & Saloon"""		"""5664 W Bell Road"""	Glendale	AZ	85308	33.6392632	-112.1816947	2.5	5	0	Restaurants
+98019	C710slX9bTgw6cG1SgDbVw	"""Capstone Grill"""		"""4050 Washington Rd"""	McMurray	PA	15317	40.2672349	-80.1294063	3.5	29	1	Restaurants
+98704	Q0bCcUkEw_HXR0jOrSDABQ	"""Verein Waldheim Zuffenhausen 1911 e.V."""		"""Hirschsprungallee 5"""	Stuttgart	BW	70435	48.828	9.15373	3.0	3	1	Restaurants
+98733	25uxgxlqp7sW5F15wguyIA	"""Jack In the Box"""	Eastside	"""2550 S Maryland Pkwy"""	Las Vegas	NV	89109	36.1427916	-115.1364955	2.5	6	1	Restaurants
+98855	hErWeLeyjGOOb4d76ZWcNQ	"""Bei Den Steins"""		"""Albert-Schäffle-Str. 6"""	Stuttgart	BW	70186	48.7715516913	9.2028724579	5.0	3	1	Restaurants
+98960	EX3wTLh4gOVF7RQ0ulGYPw	"""Tatum's Restaurant"""		"""4415 E Paradise Village Pkwy S"""	Phoenix	AZ	85032	33.5957323	-111.9856931	3.0	8	1	Restaurants
+99165	m_20MPMSFeNHI8Ssabb-0w	"""Richview Bakery-Deli"""	Etobicoke	"""250 Wincott Dr"""	Etobicoke	ON	M9R 2R5	43.6795641	-79.5466	4.5	8	1	Restaurants
+99336	ZbrzfqFckUn3XnuhxkiEQg	"""Golden Grain"""		"""14 High Street"""	Haddington	ELN	EH41 3ES	55.9552644	-2.7757474	3.5	3	1	Restaurants
+99803	gmGYTQdwfNCcVeUOGpM1Og	"""CBC Restaurant"""		"""Plieninger Str. 109 A"""	Stuttgart	BW	70567	48.7235	9.16209	3.0	4	1	Restaurants
+100223	xxJMwfmcRFdQXbJJetntlw	"""Sub Station II"""	Starmount	"""816 E Arrowood Rd, Ste A"""	Charlotte	NC	28217	35.1357194	-80.8787439	3.5	3	0	Restaurants
+101056	VC3Lel2PizMo9vqgDruBYw	"""Long John Silver's"""		"""Riverview Plz"""	New Kensington	PA	15068	40.5906266513	-79.7507308547	2.5	3	0	Restaurants
+103801	WNSdjFgR3vjeDQl7rKEGNg	"""Shish Kabob House"""	The Strip	"""3049 S Las Vegas Blvd"""	Las Vegas	NV	89109	36.1314439	-115.1648858	3.5	3	0	Restaurants
+104398	zRVIGRRZEw3jna2QJwLjpA	"""Cleveland Grill"""	West Boulevard	"""3359 W 117th St"""	Cleveland	OH	44111	41.4611093	-81.7686821	3.0	3	0	Restaurants
+104611	kZVFHKfAEXgysJdyOkJ3EA	"""Tung Tung Company Ltd"""	Scarborough	"""23 Glen Watford Drive"""	Toronto	ON	M1S 2B7	43.7869274	-79.2740715	4.0	4	1	Restaurants
+104964	u-H6djIQKi73jNtFaoSuGA	"""Acappella"""	Gateway District	"""1625 Euclid Ave"""	Cleveland	OH	44115	41.5011466	-81.6803077	2.5	3	1	Restaurants
+106914	FZZr2OJqq7yT3NR1-vCOfA	"""Meridian"""		"""2727 W Frye Rd"""	Chandler	AZ	85224	33.2983052	-111.8888821	3.0	5	1	Restaurants
+107441	5UxcmqN8MT7Pzkh32qdPNQ	"""McDonalds # 2514"""		"""2035 S Ellsworth Rd"""	Mesa	AZ	85212	33.3782005	-111.6355871	1.0	3	1	Restaurants
+108097	trt4CpseesidBVJGUeLENw	"""The Kitchen"""	West Queen West	"""1186 Queen Street W"""	Toronto	ON	M6J 1J6	43.6427956	-79.4261853	2.5	3	0	Restaurants
+108117	d2fLtk59VlvKecvBWJbyQQ	"""altitude 737"""	Ville-Marie	"""1 Place Ville-Marie  Cathcart/Université   514 397 0737   1, Montreal"""	Montréal	QC	H3B	45.5016889	-73.567256	4.0	3	1	Restaurants
+108908	cRtPP-AKezf0m94W-aisYA	"""Green Leaf"""	Downtown	"""875 S Grand Central Pkwy"""	Las Vegas	NV	89106	36.1638289	-115.1568419	3.0	4	1	Restaurants
+108955	NFUINoS0tUsp3qy7wLIB1A	"""Dorcas Restaurant"""		"""403 E Green St"""	Champaign	IL	61820	40.1100319	-88.2330779	4.0	8	0	Restaurants
+108984	j5wcbhFqxEF-YtayK2fTjQ	"""Silver Spoon Cafe"""		"""202 N Central Ave"""	Phoenix	AZ	85004	33.450611	-112.074198	3.5	9	0	Restaurants
+109295	TcPHZAVjOQ6yL5dDa_pMhg	"""Alte Hofkammer"""		"""Schwieberdinger Str. 198"""	Stuttgart	BW	70435	48.8405	9.1416	4.0	4	1	Restaurants
+109534	bGBLAqWOR-_5EefJA6Gf-w	"""Restaurant Matos Kutscherstube"""		"""Hohenzollern Str. 21"""	Sindelfingen	BW	71065	48.7189	9.01746	3.5	3	1	Restaurants
+109701	6aOoRA6P_lmUIzFO6mX3rA	"""Villa Madina"""		"""At Fairview Mall, 1800 Sheppard Avenue E"""	Toronto	ON	M2J 5A7	43.778329902	-79.3432907439	2.5	10	1	Restaurants
+110615	GB3L81lYwu-GuyXrbnUpUQ	"""Best Friends Restaurant"""		"""6888 Center St"""	Mentor	OH	44060	41.683435	-81.339884	3.0	3	0	Restaurants
+111382	cbjMJxSRPCdEZapU5muHoA	"""Rosie's Family Restaurant"""		"""42753 N Ridge Rd"""	Elyria	OH	44035	41.4178497	-82.1505074	3.0	6	1	Restaurants
+111553	2Ql9YdeQstF79FLZyypDWQ	"""Hunan King Restaurant"""		"""3317 Oberlin Ave"""	Lorain	OH	44053	41.4404511	-82.1852672	4.5	5	1	Restaurants
+111569	w3ynHejR_YBVzJgP6rjb2w	"""Rockfish Seafood Grill"""		"""3095 W Chandler Blvd"""	Chandler	AZ	85226	33.3046994	-111.8976667	3.0	5	0	Restaurants
+112057	LHueU8OxZ6ObtISJ18niEw	"""El Paso Bar-B-Que Company"""		"""13823 W Bell Road"""	Surprise	AZ	85374	33.6383422	-112.3579458	3.0	3	0	Restaurants
+112616	d5jY-uA0Zh33oFhENHuEcg	"""Saigon Kitchen"""		"""13803 Hwy 74 E"""	Indian Trail	NC	28079	35.0834889	-80.660058	4.0	33	0	Restaurants
+112698	pWlb4ThOsW4v_aGy2IF1Mg	"""Midtown Sundries"""		"""18626 Harbor Side Dr"""	Cornelius	NC	28031	35.464825	-80.8924682	4.0	6	0	Restaurants
+112872	LAswzVTnT3uCvnKr-SwxEg	"""Hmshost"""		"""5501 Josh Birmingham Pkwy"""	Charlotte	NC	28208	35.2235173	-80.9441649	2.0	3	1	Restaurants
+113195	6nXGWiwT6L6bZ0N68tFCEQ	"""Romen's Gyros"""		"""10050 W Bell Rd"""	Sun City	AZ	85351	33.6396367	-112.2758645	2.0	4	1	Restaurants
+113376	Hjq2PsuwTV1gfXYyH3IOuA	"""New York Fries Fairview"""		"""6815 Aut Transcanadienne"""	Pointe-Claire	QC	H9R 5J2	45.4648250855	-73.8324435743	1.5	3	1	Restaurants
+113533	myJKusJSWeNT6XGm9nBO8A	"""Rudy's Submarines"""		"""270 Yost Blvd"""	Pittsburgh	PA	15221	40.4139311	-79.8508856	3.5	8	1	Restaurants
+113700	IIWUPx-7qZUgtYBKD7k69w	"""Redcoat cafe"""	Old Town	"""Royal Mile, Edinburgh Castle"""	Edinburgh	EDH	EH1 2NH	55.9485947	-3.1999135	2.5	7	1	Restaurants
+114558	X92XkmKWt5TjNiD2m6tadg	"""Jack-In-the Box Drive Thru"""		"""2440 W Thomas Rd"""	Phoenix	AZ	85015	33.48092	-112.112249	3.0	4	1	Restaurants
+114742	VSxerbElzNHa54Untazzmw	"""Chili's Grill & Bar"""		"""1190 W Elliot Rd"""	Tempe	AZ	85284	33.3495934	-111.9578254	3.0	3	0	Restaurants
+115914	4dj9RGOK0OYfQ6HSpB2GzQ	"""Airport Grill"""	Old Malton Village	"""7040 Airport Road"""	Mississauga	ON	L4T 2G8	43.704298	-79.6439057	2.5	4	1	Restaurants
+116249	hG-okRD-mjpZQheWT9gwBg	"""Ollies Omelette House"""		"""5166 W Olive Ave"""	Glendale	AZ	85302	33.5675288728	-112.171232772	2.0	3	1	Restaurants
+116537	_llPSi3SnutPx_54z8uNMw	"""Stuttgarter Kellerschenke"""		"""Willi-Bleicher-Str. 20"""	Stuttgart	BW	70174	48.7788	9.17552	2.5	6	1	Restaurants
+117120	Eq3d-JhyixFZP3MofK-CiA	"""Gartenfreunde Fellbach e.V."""		"""Erbach 33"""	Fellbach	BW	70734	48.8143	9.29163	5.0	4	1	Restaurants
+118117	SrmRT2kc3v5VUWKS3_IFBQ	"""Dairy Queen Brazier of White Oak"""		"""1990 Lincoln Way"""	McKeesport	PA	15131	40.3374951	-79.8095321	3.0	8	1	Restaurants
+118368	RGVanstTVdGptTJD-FQTpw	"""Cabine M"""	Dorval	"""Zone Internationale de l'aéroport Montréal-Trudeau, porte 52, Restaurant de Louis François Marcotte."""	Dorval	QC		45.45	-73.75	2.0	4	1	Restaurants
+118491	BjHZpQhu_cQ5e6gV1jnPgQ	"""Island Breeze Restaurant"""		"""907 Jane Street"""	York	ON	M6N 4C6	43.6776327	-79.4958085	4.5	3	1	Restaurants
+119495	99PGRbfCME7Lhz46zd8Q3w	"""Cafe No 1"""		"""75 Castle Street"""	Inverness	HLD	IV2 3EA	57.4756162	-4.2248415	3.5	3	1	Restaurants
+119553	U4DbCXyX_Hd451MoQCw9iw	"""McDonalds Restaurants"""		"""1429 US Hwy 51 And 138"""	Stoughton	WI	53589	42.9179624	-89.2379895	2.0	6	1	Restaurants
+119578	xTf9XC5JG4Al7f9mP5tpsg	"""Burger King"""		"""14 Pearl Rd"""	Brunswick	OH	44212	41.2751833	-81.8367081	2.5	3	1	Restaurants
+119613	5qc4qIXNh7_nbtYhNEn1lQ	"""Zuhus Flamin Peri Chicken"""	Old Town	"""94-95 S Bridge"""	Edinburgh	EDH	EH1 1HN	55.950776	-3.187635	4.5	7	1	Restaurants
+120105	he-JIuJSUxnrr04iyycH6A	"""Tacos Jalisco"""		"""9802 N 7th Street"""	Phoenix	AZ	85020	33.5752609	-112.0655777	3.0	4	0	Restaurants
+120246	g5Lz7JUqIQqe5xMQmUXQTQ	"""Kiri' s Grillpfanne"""		"""Martinstr. 12"""	Esslingen	BW	73728	48.7403	9.30289	3.5	4	1	Restaurants
+120552	5Um7y3o6RQUjKG9dfUXRBw	"""Quilted Bear"""		"""6316 N Scottsdale Road"""	Paradise Valley	AZ	85253	33.530308	-111.9258192	2.5	3	0	Restaurants
+121312	TOCxDNKKG83sCrO76-ym0Q	"""Lazy Lou's Fish & Chips"""		"""2718 W Bethany Home Road"""	Phoenix	AZ	85017	33.52403	-112.1176316	3.0	3	0	Restaurants
+121397	d0ekT3vqs5MbAJdjJWpGSA	"""Mamma Lucia"""		"""11978 Perry Hwy"""	Wexford	PA	15090	40.6324345	-80.0563681	2.5	5	1	Restaurants
+121549	c2x8wXMI4HbqBElLQ-tPRw	"""Aunt Annie's Pretzels"""		"""4250 Athem Way, Ste F90, Outlet's at Anthem"""	Phoenix	AZ	85086	33.8740033	-112.150162	3.5	4	1	Restaurants
+122088	mqt-UWQau0NUF75LT3NmUw	"""Tacone"""	Anthem	"""2265 Village Walk Dr"""	Henderson	NV	89052	36.0217253	-115.0853105	3.0	4	0	Restaurants
+122168	dulPV3NFShqR-lla6NHkvA	"""Glassport Diner"""		"""627 Monongahela Ave"""	Glassport	PA	15045	40.3251126	-79.8922223	4.0	3	1	Restaurants
+122195	LrV-p6qjW-GxaMBTQpn2BA	"""Restaurant Maison Shing DO"""	Saint-Laurent	"""910 Decarie Boul"""	Saint-Laurent	QC	H4L 3M4	45.5129509	-73.6807674	2.5	6	1	Restaurants
+122788	CFs89vckryf0WNb6zION6w	"""Hungry Bear"""		"""9261 Norwalk Rd"""	Litchfield	OH	44253	41.168583	-82.0227419	4.0	6	1	Restaurants
+123842	gn0TasvTia69ljBIhwIUcQ	"""Maison Ho (La)"""	Lachine	"""2945 Rue Notre-Dame"""	Lachine	QC	H8S 2H4	45.4341674	-73.6908644	3.5	3	1	Restaurants
+124417	49AFed3Vb3b0kKoicKkbkg	"""Cafe One"""		"""75 Castle Street"""	Inverness	HLD	IV2 3EA	57.4756162	-4.2248415	3.0	7	1	Restaurants
+124469	0-jjI-RLYVvqSYDMwsD1Uw	"""Sonic of Gilbert #1"""		"""987 N Gilbert Rd"""	Gilbert	AZ	85234	33.3678783	-111.7892467	2.0	15	1	Restaurants
+124753	MImmd7Y7K3kCAP0YG05hOQ	"""Macerado Restaurante"""		"""Avenida Portales 1685"""	Casablanca	VS	2480000	-33.3276176	-71.3949051	3.5	3	1	Restaurants
+124935	E0c0nFiUQcHR6ctIdKcP-Q	"""W. u. H. Wieninger Restaurant Lamm"""		"""Leonberger Str. 2"""	Gerlingen	BW	70839	48.8012372	9.0610384	3.5	3	1	Restaurants
+125394	ykn2Mvr_u3zZZx2uKkFPxQ	"""Hong Kong Restaurant"""		"""334 Oak Ave"""	Kannapolis	NC	28081	35.4971368	-80.6283297	1.5	3	1	Restaurants
+125456	O22UTpS8b_RCgOa0v3OLmw	"""Gathering Bistro & Bar"""		"""Ingliston"""	Newbridge	EDH	EH28 8NE	55.9411911	-3.3711582	1.5	5	1	Restaurants
+125582	0o3uC_krrHIp0RSQPr-INw	"""Restaurant Bazz Java Jazz"""		"""591 Av Notre-Dame"""	Saint-Lambert	QC	J4P 2K8	45.5012395	-73.5083407	3.5	3	1	Restaurants
+125891	fKAYcxoqblhyUIm7GTQMCA	"""Original Pancake House"""	Northwest	"""8620 W Cheyenne Ave"""	Las Vegas	NV	89129	36.219152	-115.281428	4.0	9	0	Restaurants
+126102	UdC4xRKTFQPOhkc6vPVwvA	"""Loose Caboose"""	Spring Valley	"""4045 S Buffalo Dr"""	Las Vegas	NV	89147	36.1153986	-115.2626207	3.5	8	1	Restaurants
+126250	yk_humsf5Uy1YAM3SOKYdQ	"""Better Than Sex Cake Cafe"""		"""241 S Oregon St"""	Chandler	AZ	85225	33.299873	-111.842586	3.0	12	0	Restaurants
+126673	J1KCaKqw-1qcERELeTJEBA	"""Anthony's Family Restaurant"""		"""34931 Vine St"""	Willowick	OH	44095	41.6429229	-81.4392617	4.0	33	1	Restaurants
+126715	FgHAx1fSeKYPIDXBKeF8xA	"""Hardee's of Fort Mill"""		"""101 Tom Hall St"""	Fort Mill	SC	29715	35.0084938	-80.9424731	2.0	12	1	Restaurants
+126887	K0dp91jd_vqW4uNgvW6oag	"""Valliant's Diner"""		"""3418 Babcock Blvd"""	Pittsburgh	PA	15237	40.5391017	-80.0235723	2.5	27	1	Restaurants
+126951	-gP02HuP8GyZHa4R3omLAg	"""Mio Kitchen and Wine Bar"""	Aspinwall	"""225 Commercial Ave"""	Aspinwall	PA	15215	40.490291	-79.904024	3.5	5	0	Restaurants
+127221	dlt1ugrobTjdjX6U73gbsw	"""Carolina Grill"""		"""1816 Galleria Blvd."""	Charlotte	NC	28270	35.137223	-80.734594	3.5	3	0	Restaurants
+127311	D44jdlGFwQ11JPL6j_XfqQ	"""Drew Menas Restaurant & Lounge"""		"""1456 Lincoln Hwy"""	North Versailles	PA	15137	40.3728668	-79.7934045	2.5	12	1	Restaurants
+127538	SiGtGUlCPuU2JdDdERyZww	"""Restaurant Eche Pa'echarle Pena (Party) Touristica"""	Villeray-Saint-Michel-Parc-Extension	"""7216 Saint-Hubert Rue"""	Montréal	QC	H2R 2N1	45.5411507	-73.6142459	4.0	7	1	Restaurants
+127955	h_hg33vb0OsWsE6T1SHAgw	"""Church's Chicken"""		"""12045 N 32nd St"""	Phoenix	AZ	85028	33.5966758	-112.0127013	3.0	23	1	Restaurants
+128550	HfApX8Ps1T-PpmwIVTo0iw	"""Medizona"""		"""7217 E 4th Ave"""	Scottsdale	AZ	85251	33.4977936	-111.9254014	3.5	11	0	Restaurants
+129722	_22rTkTXUjzovPpt9tbImQ	"""Mr Hero"""		"""9229 State Route 14"""	Streetsboro	OH	44241	41.2388203	-81.3441803	2.5	3	1	Restaurants
+130178	O8HVCZ89WMjHD2PcyeYjXA	"""Sarku Japan"""		"""11025 Carolina Place Pkwy"""	Pineville	NC	28134	35.0822	-80.8772242	2.5	6	1	Restaurants
+130685	pRw_4FAQPc-sqvDcQSGGKg	"""Bistro Chezanne"""	Streetsville	"""209 Queen St S"""	Mississauga	ON	L5M	43.5811589	-79.7129813	3.5	3	0	Restaurants
+131535	TchUT9nn0JVLPwUTexLSVQ	"""TGI Friday's"""		"""5885 W Bell Rd"""	Glendale	AZ	85308	33.6383702	-112.1859848	3.5	3	0	Restaurants
+131719	RUyvZomtYaAU4Ryrp1-lJg	"""Eastside Saggy's"""		"""29012 Euclid Ave"""	Wickliffe	OH	44092	41.6027852	-81.4783394	3.5	3	1	Restaurants
+132020	3yc-pbA_-XeqXB3b-bPlgA	"""Caractere Chinois (Le)"""	Plateau-Mont-Royal	"""1870 Gauthier Rue"""	Montréal	QC	H2K 1A3	45.5302491	-73.5665551	3.5	3	1	Restaurants
+132612	Xb7jOAa17xtT_uA4sCCAsg	"""Memo's Bistro"""		"""16820 N 99th Ave"""	Sun City	AZ	85351	33.635323	-112.27539	4.0	10	1	Restaurants
+134082	RRKF775V3TEBeFWcwC0cbQ	"""Restaurants D Lafleur (Les)"""	LaSalle	"""475 Lafleur Av"""	Lasalle	QC	H8R 3H8	45.4334251	-73.6457583	3.5	3	1	Restaurants
+136087	Gn68S8dMawWtjaiNNAHQbQ	"""Spaghetti Shop"""		"""1325 N Dunlap Ave"""	Savoy	IL	61874	40.07145	-88.249365	2.5	3	0	Restaurants
+136236	M_DAQgU0DSZS7AzqNa9wkA	"""Boca 7"""		"""66 S Dobson Rd, #133"""	Mesa	AZ	85202	33.413158	-111.875779	4.5	11	0	Restaurants
+137668	htllg7z_3firi_F2NLksWw	"""Lunch Box Deli"""		"""223 W Schaaf Rd"""	Cleveland	OH	44109	41.421414	-81.678853	5.0	3	1	Restaurants
+138068	ihk6lWFPuVi___DSucNelQ	"""Ka Hing Kitchen"""	Milliken	"""4300 Av Steeles E"""	Markham	ON	L3R 0Y5	43.8261994	-79.3063174	3.0	7	1	Restaurants
+138786	I-Fbhngu_uxPCCsJE8gpCA	"""Pischke's Blue Ribbon Cafe"""		"""7217 E 1st St"""	Scottsdale	AZ	85251	33.4920804	-111.9255527	2.5	14	0	Restaurants
+139117	GL8VGkr_2I1Isjk2zZmCyg	"""Naturfreundehaus Fuchsrain"""		"""Neue Str. 150"""	Stuttgart	BW	70186	48.7699	9.2117	5.0	3	1	Restaurants
+139562	HGItTuxddsG3CUhrreCOmA	"""Tail-Gator's Grill & Pub"""		"""10683 Ravenna Rd"""	Twinsburg	OH	44087	41.329985	-81.463341	4.0	8	0	Restaurants
+139888	lqEbAO2I1q4ttg2LvMStqQ	"""Ruby Tuesday"""	Summerlin	"""1220 N Town Ctr Dr"""	Las Vegas	NV	89144	36.183143	-115.308819	4.0	13	0	Restaurants
+140016	WWYFK5rTkQZMOBaRFP51Xg	"""Hey Andy Sportsbar & Lounge"""		"""1231 W Main St"""	Monongahela	PA	15063	40.2064974	-79.9383938	1.5	3	1	Restaurants
+140538	Bty8KcQAJb2v8ZP0m9rLbg	"""Parente's Ristorante"""		"""427 Cavitt Ave"""	Trafford	PA	15085	40.385464	-79.760309	2.5	11	1	Restaurants
+140855	99UdjaTZ_L2fPxIYQQua9g	"""Gallup Coffee & Bakehouse"""		"""100 Cross Country Rd"""	Verona	WI	53593	43.001877	-89.528932	3.5	3	0	Restaurants
+141439	13Q6IzWq2vLMBrsQbUKorw	"""Zur alten Ziegelei"""		"""Burgholzstr. 45"""	Stuttgart	BW	70376	48.8215	9.20564	3.0	19	1	Restaurants
+141499	7MrVKrTj_cULIAF8Z3_P-A	"""Ming Restaurant"""		"""Dronningens gate 27"""	Moss	01	1530	59.4354163	10.6597714	3.0	4	1	Restaurants
+142268	QkTnoDfl7-cLQEAW9TqMQQ	"""On The Grill"""		"""3923 E Thomas Rd"""	Phoenix	AZ	85018	33.479889	-111.997771	4.0	4	0	Restaurants
+142826	qzh8srlptSOl2LaGWn3hDQ	"""Extreme Pita"""		"""3141 S McClintock Drive"""	Tempe	AZ	85282	33.3947699	-111.9088938	3.0	3	0	Restaurants
+143147	lk9FXwKCOxIvXAWF8zr_Zg	"""Cafe Soleil"""	Capitol	"""25 N Pinckney St"""	Madison	WI	53703	43.076314	-89.3837429	4.5	25	0	Restaurants
+144491	IrlQaDI6bz6VKheJdWL-vw	"""Carmine's On The Hill"""	Anthem	"""645 Carnegie St"""	Henderson	NV	89052	36.0052019	-115.0958499	3.0	4	0	Restaurants
+144696	QqIg5DYuZjUrVQEuBNE1Lw	"""Gaststätte Hasenstube"""		"""Hertichstr. 4"""	Leonberg	BW	71229	48.7862	9.0074	3.5	3	1	Restaurants
+145268	FoYmJzg64zEhCRNdjCyQLw	"""Sweetpepper"""	Discovery District	"""895 Bay Street"""	Toronto	ON	M5S 3K6	43.6631782	-79.3863982	3.0	4	1	Restaurants
+145739	XlfoDBqi1diD9777_dRMLw	"""Eli's Kitchen"""		"""115 Public Sq"""	Medina	OH	44256	41.1393715	-81.8634577	2.5	26	1	Restaurants
+145842	Lih3sCWBJRgrsERRO6--Yg	"""McGrath's Fish House"""		"""7000 E Mayo Boulevard"""	Phoenix	AZ	85054	33.6556844	-111.9300279	2.0	9	0	Restaurants
+146087	4sKjA2dwKp3HjEoaM0J9qg	"""Restaurant am Unstrut- Wehr Donath Stefan"""		"""Mühlstr. 10"""	Freyburg	ST	06632	51.2085	11.77146	2.0	8	1	Restaurants
+146449	rPY4bukI1QdfJc-1OCAwLg	"""Carl's Jr 7081"""		"""3470 W Bell Rd"""	Phoenix	AZ	85053	33.639989	-112.133927	2.0	14	1	Restaurants
+147631	s3nlgqTIw9tL5oEPKGj9mQ	"""Goldene Biene"""		"""Unterer Metzgerbach 14, Nähe Karstadt"""	Esslingen	BW	73728	48.7406	9.30419	3.5	4	1	Restaurants
+147714	lOkAyuipka2tMk0NCAt6tQ	"""Big Daddy's Restaurant"""		"""460 Elgin Mills Road E"""	Richmond Hill	ON	L4C 5E7	43.8926053	-79.429077	3.5	7	1	Restaurants
+148702	iAhv21whBCH7FjwCC2WyuQ	"""Mabel Murphy's"""		"""7018 E Main St"""	Scottsdale	AZ	85251	33.493181	-111.9297091	2.5	3	0	Restaurants
+149141	sQE-qnFfJ2QenhaSU42PUA	"""Cafe Ramses"""		"""8500 Boul Taschereau"""	Brossard	QC	J4X 2T4	45.4440244	-73.4731794	3.0	10	1	Restaurants
+149512	pZb0fDbnSaZtyxrUHtbLSQ	"""Cafe Emina"""		"""8020 N 27th Ave"""	Phoenix	AZ	85051	33.5536777	-112.1170007	4.5	3	1	Restaurants
+151441	y0m8WqajagGgZXnMEhMzfQ	"""jeremys"""		"""33, Victoria Park Avenue"""	Scarborough	NYK	YO12 7TR	54.2894471	-0.406636	5.0	3	1	Restaurants
+153270	Ds7mi9WQOTwTNQSRkczNXg	"""Pizzaville"""		"""180 Sandalwood Parkway E"""	Brampton	ON	L6Z 1Y4	43.7282195	-79.7963221	3.0	3	1	Restaurants
+153722	fQtOX82o8y-vqWIX0XW38w	"""Mr Chicken"""		"""10710 Northfield Rd"""	Northfield	OH	44067	41.3502439	-81.527178	4.0	7	1	Restaurants
+153742	j4qHJ8oWCgNtWlt43AYkZQ	"""Brückenhaus"""		"""Marbacher Str. 220"""	Ludwigsburg	BW	71642	48.9073	9.22076	3.5	3	1	Restaurants
+154205	VAXp38_w_6L8iHxYIcuGAQ	"""Jack-In-the Box Drive Thru"""		"""440 E Southern Ave"""	Mesa	AZ	85204	33.3936789	-111.8218085	2.0	9	1	Restaurants
+154932	aPGT5YMtgXxU5fE3XO24ZA	"""Restaurant Au Coin De La Baie"""		"""1643 Av Bourgogne"""	Chambly	QC	J3L 1Y8	45.4480942	-73.2870704	3.0	3	1	Restaurants
+155126	Oys6S-x8nYdTJqvY7ksGCA	"""La Cage Aux Sports"""	Ville-Marie	"""1437 Boul Rene-Levesque Ouest"""	Montréal	QC	H3G 1T7	45.494806	-73.5743285	3.5	18	0	Restaurants
+156246	sO5rEKLjpNshsTvSwRRNFQ	"""Deck"""		"""11697 State Route 44"""	Mantua	OH	44255	41.3100206	-81.2217445	3.5	3	1	Restaurants
+156500	t5SXjiQlp-0ctHzYES2Juw	"""Goodlake"""	New Toronto	"""2976 Lake Shore Boulevard W"""	Toronto	ON	M8V 1J9	43.6005663	-79.5068818	4.0	34	0	Restaurants
+158153	sTmHeHv-4uZRRne5jBDzvA	"""Si Senor Restaurant"""	Downtown	"""600 Grant St"""	Pittsburgh	PA	15219	40.4413557	-79.9948492	2.0	4	0	Restaurants
+159864	Xj_qDe73ATUPSxnIPoWd-g	"""Hot Rod Cafe"""		"""240 N Sunway Dr"""	Gilbert	AZ	85233	33.354704	-111.82647	3.0	3	1	Restaurants
+161191	ncwxEFx319noYl0kCl9tnw	"""Charthouse"""		"""14244 North 69th Way"""	Scottsdale	AZ	85254	33.6168749169	-111.931118017	3.5	10	1	Restaurants
+161544	g-9ioGyD740qSJ1vSN-VrA	"""Lee's Wok"""		"""455 Penn Lincoln Dr"""	Imperial	PA	15126	40.4429287	-80.2361327	3.0	5	1	Restaurants
+161567	TaDp2EiNKqHhAp21xIoggg	"""Hunan King"""		"""1537 W River Rd N"""	Elyria	OH	44035	41.3950533	-82.1067074	3.0	5	1	Restaurants
+163527	ptCId9e4tnHk2lorBzLfPA	"""Gaststätte LE-Populair"""		"""Hauptstr. 12"""	Leinfelden-Echterdingen	BW	70771	48.685	9.16617	4.0	6	1	Restaurants
+163754	m11jHF_PzDK3v8J9Qvp4uA	"""The Chester Fields"""		"""Sandfield Farm Chester Road, Bridge Trafford"""	Chester	CHE	CH2 4JR	53.2361965	-2.8235887	3.5	3	1	Restaurants
+163799	RgjZSsQLcR6gJJv9RUX41Q	"""Wok N Spice"""		"""Bankhead Park, Bankhead Gate"""	Glenrothes	FIF	KY7 6GH	56.1823845	-3.1474292	4.0	7	1	Restaurants
+164009	9a93JUWERzeoZIjSc_wtpQ	"""Restaurant Ora"""	Ville-Marie	"""394 Saint-Jacques Rue"""	Montréal	QC	H2Y 1S1	45.501803	-73.5597	3.5	3	1	Restaurants
+164149	DlCpHyRiobzsbCKKGrQYZA	"""Restaurant Mangiamo"""		"""1460 Ch Gascon"""	Terrebonne	QC	J6X 2Z5	45.7091526	-73.6518791	3.5	3	1	Restaurants
+164480	d9eUbeXDbYtBCoMEBdgYpg	"""Cafe Mayer"""		"""Unterer Metzgerbach 18 1"""	Esslingen	BW	73728	48.7402039	9.304502	3.5	10	1	Restaurants
+164831	79jCddENU9qgixuvOBMRxg	"""Pulp Juice and Smoothie Bar"""		"""9227 Mentor Ave"""	Mentor	OH	44060	41.6777483	-81.3090332	3.5	6	1	Restaurants
+165376	ACwNbUTKVIoukL0XmUSwaA	"""La Belle Province Familiale"""		"""3604 Boul Saint-Charles"""	Kirkland	QC	H9H 3C3	45.4571021	-73.8634451	2.0	6	1	Restaurants
+165943	_GPRmLx7cdwDxBj5ORz0dQ	"""Mendels"""		"""Unterer Brühl 2"""	Stuttgart	BW	70569	48.7376	9.12767	3.5	5	1	Restaurants
+165978	PwSHyuhGQu_YzeoB2dlu3Q	"""Restaurant Traiteur Recto-Verso"""		"""814 Ch Pierre-Peladeau"""	Sainte-Adele	QC	J8B 1Z4	45.9627867	-74.124379	4.5	5	1	Restaurants
+166673	iJ818L_78MFGOZs6hUVW4A	"""Red Walter Bar-B-Q"""	Fairfax	"""8425 Cedar Ave"""	Cleveland	OH	44103	41.500077	-81.6276051	1.0	3	1	Restaurants
+167053	KdGkP141oR20eclgA_VFwg	"""Nothing But Noodles"""		"""2160 E Baseline Rd"""	Phoenix	AZ	85073	33.3779323	-112.0329027	2.0	6	0	Restaurants
+168223	mcGfunYZWPAxiAKQqEN0IQ	"""Sonic of Mesa #2"""		"""6935 E Baseline Rd"""	Mesa	AZ	85209	33.378748	-111.684592	2.0	9	1	Restaurants
+168470	cTV6P9Fb4JLTH084obctYA	"""Mr Chicken"""		"""35901 Euclid Ave"""	Willoughby	OH	44094	41.6267319	-81.432816	4.5	3	1	Restaurants
+168760	ujEnNMZRerWlSOKxS6TO1g	"""Buffalo Wild Wings"""		"""4425 E Mckellips Rd"""	Mesa	AZ	85215	33.4494697	-111.7349063	3.0	3	0	Restaurants
+169361	veaUBU4pq5dJm6Em6wgEMg	"""Soup Factory"""		"""1901 Cayuga St"""	Middleton	WI	53562	43.0961286	-89.5136731	3.0	3	0	Restaurants
+169363	tiaSRKBTb7edKIB4V5qFKg	"""Cleveland's Diner"""	Capitol	"""410 E Wilson St"""	Madison	WI	53703	43.0756783	-89.3772976	4.5	6	0	Restaurants
+170685	p9sxVs0JlOf1K_R08ylzbA	"""Stroll Inn"""		"""12 Fairhaven Rd"""	Mc Kees Rocks	PA	15136	40.474812	-80.099666	4.0	8	1	Restaurants
+170760	GnNcczZ_t4tdHlpbYu4tzw	"""Restaurant Azar"""	Notre-Dame-de-Grâce	"""5899 Sherbrooke Rue W"""	Montréal	QC	H4A 1X6	45.4690266	-73.6192479	4.5	4	1	Restaurants
+171154	a4h5aFqPkeBjLSksu2AuhQ	"""Gabby Pub"""		"""7059 Yonge St"""	Thornhill	ON	L3T 2A6	43.7996682	-79.4202472	2.0	5	1	Restaurants
+171309	sfWFdhpwsThk4w9nDg1tTA	"""Best Steak & Gyros House"""	East Cleveland	"""13620 Euclid Ave"""	Cleveland	OH	44112	41.5241555	-81.5875832	3.0	3	1	Restaurants
+171750	JsvpdL_0UJwYNxFbZ-ecmw	"""Bootshaus am Hechtkopf"""		"""Fellbacher Str. 2/1"""	Remseck	BW	71686	48.87339	9.27393	3.0	23	1	Restaurants
+172360	f5PPtPxB7CLgQuHiUBeBcQ	"""Brooklyn Bagel"""	Eastside	"""2430 E Flamingo Rd"""	Las Vegas	NV	89121	36.1152068	-115.1181849	2.0	3	0	Restaurants
+172747	b1hmyz3gxWdhuWKkSdk3Ug	"""Clamato's & Beer"""	Eastside	"""2250 East Tropicana Ave, Ste 19"""	Las Vegas	NV	89119	36.1017767949	-115.121525606	2.5	3	1	Restaurants
+172804	ZmMt4qCEJZKzC0bp5IGnvA	"""Restaurant and Bakery Salvadorena"""	Eastland	"""5724 E Wt Harris Blvd"""	Charlotte	NC	28215	35.2372325	-80.7371183	3.5	4	1	Restaurants
+172930	AtOE7tSrJn1HXnU9YoUbPQ	"""Der Brotkorb the European Bakery Cafe"""	Erin Mills	"""10 Woodchester Mall"""	Clarkson	ON	L5K 1R8	43.5273399353	-79.6765975952	3.0	3	1	Restaurants
+173105	Xxr4n8peOKw0csYEgVl0hA	"""Wing Machine"""	Downtown Core	"""200 Elizabeth Street"""	Toronto	ON	M5G 2C4	43.6586363	-79.388479	2.0	3	1	Restaurants
+173169	lZF_552-s1RqnfPpLuIhkg	"""Uncle Bear's Bar & Grill"""		"""825 S Cooper Road"""	Gilbert	AZ	85233	33.3345486	-111.8048599	4.0	3	0	Restaurants
+173804	pAGbg3xqAvkHbasxKOAqjQ	"""Hot Rod Grille"""		"""1231 American Pacific Drive"""	Henderson	NV	89074	36.0413085	-115.0402688	3.0	7	0	Restaurants
+173815	5UgchDhfWwhenu3qCl4VQQ	"""Ubaldo's Taco Shop"""		"""314 E Western Ave"""	Avondale	AZ	85323	33.4353466	-112.346024	4.5	5	1	Restaurants
+173854	ulgKYoSiwkYgHVFsWim6kA	"""Reds Family Restaurant"""		"""254 Portobello High Street"""	Edinburgh	EDH	EH15 2AT	55.9518257	-3.1104951	4.0	6	1	Restaurants
+174192	AsKb-lUO_3MYFg6df9QTsw	"""Aliberto's"""		"""263 W University Dr"""	Mesa	AZ	85201	33.4221474	-111.8389519	4.0	17	1	Restaurants

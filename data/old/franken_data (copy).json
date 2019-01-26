@@ -1,0 +1,1328 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      },
+      {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "chinese",
+        "synonyms": [
+          "Chinese",
+          "Chines",
+          "chines"
+        ]
+      },
+      {
+        "value": "vegetarian",
+        "synonyms": [
+          "veggie",
+          "vegg"
+        ]
+      }
+    ],
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "dear sir",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "yes",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yep",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yeah",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "indeed",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "that's right",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "right, thank you",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "correct",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great choice",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "sounds really good",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "i'm looking for a place to eat",
+        "intent": "restaurant_search",
+        "entities": []
+      },
+      {
+        "text": "I want to grab lunch",
+        "intent": "restaurant_search",
+        "entities": []
+      },
+      {
+        "text": "I am searching for a dinner spot",
+        "intent": "restaurant_search",
+        "entities": []
+      },
+      {
+        "text": "i'm looking for a place in the north of town",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "north",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "show me chinese restaurants",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "show me chines restaurants in the north",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "chinese",
+            "entity": "cuisine"
+          },
+          {
+            "start": 34,
+            "end": 39,
+            "value": "north",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "show me a mexican place in the centre",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "centre",
+            "entity": "location"
+          },
+          {
+            "start": 10,
+            "end": 17,
+            "value": "mexican",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for an indian spot called olaolaolaolaolaola",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "indian",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "search for restaurants",
+        "intent": "restaurant_search",
+        "entities": []
+      },
+      {
+        "text": "anywhere in the west",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "west",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "anywhere near 18328",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "18328",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I am looking for asian fusion food",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "asian fusion",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "I am looking a restaurant in 29432",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "29432",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I am looking for mexican indian fusion",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 38,
+            "value": "mexican indian fusion",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "central indian restaurant",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "central",
+            "entity": "location"
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "value": "indian",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Show me some restaurant that serves pizza",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 36,
+            "end": 41,
+            "value": "pizza",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "Suggest some restaurants with good beef burgers",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 35,
+            "end": 47,
+            "value": "beef burgers",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "tell me the restaurants for coffee",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "coffee",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "Kindly tell me some coffee restaurants",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "coffee",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "From where can i get coffee",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "coffee",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "Can you tell me about some chinese restaurants",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "good bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "stop",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "end",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "farewell",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Bye bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "have a good one",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "suggest me vegetarian restaurants",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "vegetarian",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "are there any vegetarian restaurants",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "vegetarian",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "tell me some restaurants for vegetarians",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 29,
+            "end": 40,
+            "value": "vegetarians",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "i want to buy vegetarian food",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "vegetarian",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "from where can i get coffee",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "coffee",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "i want to go for breakfast",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "breakfast",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "i want to go for breakfast tell me some restaurants",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "breakfast",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "are there any restaurants for breakfast",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 30,
+            "end": 39,
+            "value": "breakfast",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "i wana eat burgers",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "burgers",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "i want to eat burgers",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "burgers",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "i want to buy burgers",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "burgers",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "tell me restaurants for burgers",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "burgers",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "are there any restaurants for burgers",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 30,
+            "end": 37,
+            "value": "burgers",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "from where can i buy pizza",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "pizza",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "from where can i get pizza",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "pizza",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "i want to buy pizza",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "pizza",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "show me some pizza parlors",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "pizza",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "are there any pizza restaurants",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "pizza",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "tell me about some korean restaurants",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "korean",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "tell about korean restaurants",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "korean",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "japanese restaurants",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "japanese",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "korean restaurants",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "korean",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "show korean restaurants",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "korean",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "i want to go to italian restaurant",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "italian",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "i want to go to japanese restaurant",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "japanese",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "show me korean restaurants",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "korean",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "give me a list of italian restaurants ",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "italian",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "show me restaurants in las vegas",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "las vegas",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "show me restaurants in toronto",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "toronto",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "show me restaurants in phoenix",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "phoenix",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "restaurants in metthews",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "metthews",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "restaurants in phoenix",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "phoenix",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i want to go to a restaurant in metthews",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "metthews",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i want to go to a restaurant in edinburgh",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 41,
+            "value": "edinburgh",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "show me chinese restaurants in las vegas",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 40,
+            "value": "las vegas",
+            "entity": "location"
+          },
+          {
+            "start": 8,
+            "end": 15,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "show me italian restaurants in toronto",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "toronto",
+            "entity": "location"
+          },
+          {
+            "start": 8,
+            "end": 15,
+            "value": "italian",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "are there any korean restaurants in phoenix",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 36,
+            "end": 43,
+            "value": "phoenix",
+            "entity": "location"
+          },
+          {
+            "start": 14,
+            "end": 20,
+            "value": "korean",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "are there any pakistani restaurants in markham",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 39,
+            "end": 46,
+            "value": "markham",
+            "entity": "location"
+          },
+          {
+            "start": 14,
+            "end": 23,
+            "value": "pakistani",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "i want to go to a pakistani restaurant in chester",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 42,
+            "end": 49,
+            "value": "chester",
+            "entity": "location"
+          },
+          {
+            "start": 18,
+            "end": 27,
+            "value": "pakistani",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "japanese restaurants in las vegas",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "las vegas",
+            "entity": "location"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "japanese",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "chinese food in chester",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "chester",
+            "entity": "location"
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "tell me restaurants that serve halal food",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "halal",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "show me halal food restaurants",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "halal",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "i want to buy halal food",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "halal",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "burgers",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "burgers",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "are there burgers",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "burgers",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "is there pizza",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "pizza",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "can i find coffee there",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "coffee",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "thanks can i get breakfast there",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "breakfast",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "las vegas",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "las vegas",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in toronto",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "toronto",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "somewhere in metthews",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "metthews",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "near edinburgh",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 14,
+            "value": "edinburgh",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "toronto",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "toronto",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "edinburgh",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "edinburgh",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in las vegas",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "las vegas",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "clifornia",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "clifornia",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "multan",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "multan",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "karachi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "karachi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "can you tell me the address of Macdonald",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 40,
+            "value": "Macdonald",
+            "entity": "r_name"
+          }
+        ]
+      },
+      {
+        "text": "please tell the address of KFC",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "KFC",
+            "entity": "r_name"
+          }
+        ]
+      },
+      {
+        "text": "where is bbq house located",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "bbq house",
+            "entity": "r_name"
+          }
+        ]
+      },
+      {
+        "text": "tell the address of subway",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "subway",
+            "entity": "r_name"
+          }
+        ]
+      },
+      {
+        "text": "tell the address of Sushi express",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 33,
+            "value": "Sushi express",
+            "entity": "r_name"
+          }
+        ]
+      },
+      {
+        "text": "tell the address of peter piper pizza",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 37,
+            "value": "peter piper pizza",
+            "entity": "r_name"
+          }
+        ]
+      },
+      {
+        "text": "i want ice cream",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "ice cream",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "i need ice cream",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "ice cream",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "i need frozen yogurt",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 20,
+            "value": "frozen yogurt",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "i want frozen yogurt",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 20,
+            "value": "frozen yogurt",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "salad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "salad",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "can i get tea",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "tea",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "i want to drink tea",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "tea",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "kabab",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "kabab",
+            "entity": "food"
+          }
+        ]
+      }
+    ]
+  }
+}

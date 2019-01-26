@@ -1,0 +1,120 @@
+%[restaurant_search]
+    ~[ask?] ~[address?] @[r_name] ~[nearby?] @[location]
+    ~[user?] ~[find?] @[food] ~[nearby] @[location]
+    ~[search?] @[cuisine] ~[restaurant] ~[nearby] @[location]
+
+~[search]
+    show me
+    tell me about
+    i need to go to
+    are there
+    find me
+
+~[tiwanese]
+    tiwanese
+
+~[middleEastern]
+    middle eastern
+
+~[malaysian]
+    malaysian
+
+~[fastFood]
+    fast food
+    jung food
+
+~[restaurant]
+    restaurants
+    places to eat
+
+@[cuisine]
+    ~[tiwanese]
+    ~[middleEastern]
+    ~[malaysian]
+    ~[fastFood]
+
+~[user]
+    can i
+    i want to
+    i need to
+
+~[find]
+    buy
+    get
+    eat
+
+~[pizza]
+    pizza
+    pizzza
+
+~[breakfast_and_brunch]
+    breakfast and brunch
+    breakfast brunch
+    breakfast & brunch
+
+~[tea]
+    tea
+    teaa
+
+~[coffee]
+    coffee
+
+~[donuts]
+    donuts
+
+~[chickenWings]
+    chicken wings
+    chicken wing
+
+@[food]
+    ~[pizza]
+    ~[breakfast_and_brunch]
+    ~[tea]
+    ~[coffee]
+    ~[donuts]
+    ~[chickenWings]
+
+~[ask]
+    tell
+    find
+    show
+
+~[address]
+    address of
+    location of
+
+~[dominosPizza]
+    dominos pizza
+
+~[waterbeanCoffee]
+    waterbean coffee
+
+~[macdonald]
+    macdonald
+
+@[r_name]
+    ~[dominosPizza]
+    ~[waterbeanCoffee]
+    ~[macdonald]
+
+~[nearby]
+    close to
+    in the area of
+    within
+    located at
+    nearby
+    in
+
+~[lasVegas]
+    las vegas
+
+~[pittsburgh]
+    pittsburgh
+
+~[toronto]
+    toronto
+
+@[location]
+    ~[lasVegas]
+    ~[pittsburgh]
+    ~[toronto]

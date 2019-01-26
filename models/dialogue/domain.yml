@@ -1,0 +1,71 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_affirm
+- utter_bye
+- utter_ask_location
+- action_default_fallback
+- action_check_restaurants
+- action_search_name
+- action_greet_info
+- utter_further_info
+- utter_after_loc
+actions:
+- utter_greet
+- utter_affirm
+- utter_bye
+- utter_ask_location
+- action_default_fallback
+- bot.ActionCheckRestaurants
+- bot.ActionSearchName
+- bot.ActionGreetInfo
+- utter_further_info
+- utter_after_loc
+config:
+  store_entities_as_slots: true
+entities:
+- location
+- food
+- cuisine
+- r_name
+intents:
+- greet
+- restaurant_search
+- name_search
+- affirm
+- goodbye
+slots:
+  cuisine:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  food:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  location:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  r_name:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  action_default_fallback:
+  - text: I dont get it
+  utter_affirm:
+  - text: Thanks for using
+  utter_after_loc:
+  - text: Which type of cuisine? eg labenese, chinese etc
+  - text: Which type of cuisine you are looking for? eg japenese, labenese etc
+  utter_ask_location:
+  - text: In which city you are?
+  - text: Kindly tell your current location ie City
+  - text: Can you tell your current City?
+  - text: Please tell the city where you are
+  utter_bye:
+  - text: Goodbye
+  utter_further_info:
+  - text: Kindly specify details if you want to search for some other restaurants
+  utter_greet:
+  - text: Hello! Tell me how can i help you finding your desired restaurant
+  - text: Hy I am here to help you find the best restaurnant
+  - text: Hy there I can help you finding the rite restaurant How can i help ?
+topics: []

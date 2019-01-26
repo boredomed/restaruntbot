@@ -1,0 +1,79 @@
+%[restaurant_search](500)
+    ~[ask?] ~[address] @[r_name] ~[nearby?] @[location]
+    ~[user?] @[food] ~[nearby2] @[location]
+    ~[search?] @[cuisine] ~[restaurant] ~[nearby2] @[location]
+
+~[search]
+    show me
+    tell me about
+    i need to go to
+    are there
+    find me
+
+~[restaurant]
+    restaurants
+    places to eat
+
+@[cuisine]
+    tiwanese
+    middle eastern
+    malaysian
+    fast food
+    japenese
+
+~[user]
+    can i get
+    i want to eat
+
+~[find]
+    buy
+    get
+    eat
+
+~[breakfast_and_brunch]
+    breakfast and brunch
+    breakfast brunch
+    breakfast & brunch
+
+@[food]
+    pizza
+    tea
+    coffee
+    donuts
+    chickenWings
+    ~[breakfast_and_brunch]
+
+~[ask]
+    tell
+    find
+    show
+
+~[address]
+    address of
+    location of
+
+@[r_name]
+    waterbean coffee
+    cake boutique
+    dunkin donuts
+    dominos pizza
+    macdonald
+
+~[nearby]
+    close to
+    in the area of
+    within
+    located at
+    nearby
+    in
+
+~[nearby2]
+
+    in
+
+@[location]
+    lasVegas
+    pittsburgh
+    toronto
+    chandler
+    rocky river
