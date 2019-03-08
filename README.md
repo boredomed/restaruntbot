@@ -12,7 +12,7 @@ User can make any open end queery based on</br>
 3-Or the address of some particular restaurant.</br>
 
 Users can ask complex question like telling all the details in a single response or ask them separately in any pattern the bot will worl perfectly.</br>
-Sample chat</br>
+<strong>Sample chat 1</strong></br>
 Bot : Hello! Tell me how can i help you finding your desired restaurant</br>
 User: Suggest some restaurants with good beef burgers</br>
 Bot : Kindly tell your current location ie City</br>
