@@ -1,6 +1,9 @@
-# restaruntbot
-Its an interactive bot build on rasa using Rasa core and Rasa Nlu.</br>
+# Restaurant Search bot
+
+It's an interactive restaurant search bot build on rasa using Rasa core and Rasa Nlu.</br>
 https://rasa.com/
+
+### Getting started
 
 The dataset used in this bot is a restaurant dataset obtained from kaggle. It has allready been added in the repository.</br>
 
@@ -11,17 +14,34 @@ User can make any open end queery based on</br>
 2-The food they want to get eg pizza, eggs etc</br>
 3-Or the address of some particular restaurant.</br>
 
-Users can ask complex question like telling all the details in a single response or ask them separately in any pattern the bot will worl perfectly.</br>
-<strong>Sample chat 1</strong></br>
-Bot : Hello! Tell me how can i help you finding your desired restaurant</br>
-User: Suggest some restaurants with good beef burgers</br>
-Bot : Kindly tell your current location ie City</br>
-User: I am in torronto</br>
-Bot : </br>
+Users can ask complex question like telling all the details in a single response or ask them separately in any pattern the bot will work perfectly.</br>
 
-Sample chat 2</br>
-Bot : Hy there I can help you finding the rite restaurant How can i help ?</br>
-User: Show me some cusiness in las vegas</br>
-Bot : Which type of cuisine you are looking for? eg japenese, labenese etc</br>
-User: i guese chinese would be good</br>
-Bot : </br>
+## Sample conversations
+
+### Chat 1</br>
+**User**: Hello</br>
+**Bot** : Hy there how I can help you finding the rite restaurant?
+              -I can help you finding your desired cuisines</br>
+              -Your desired dishes</br>
+              -In any specified location</br>
+              -Address of a particular restaurant</br>
+**User**: Suggest some restaurants with good beef burgers</br>
+**Bot** : Can you tell your current City?</br>
+**User**: I am in las vegas</br>
+**Bot** : Here is what i found</br>
+Name:</br>
+"BDJ Realty"</br>
+Address:</br>
+"2620 Regatta Dr, Ste 102"</br>
+Kindly specify details if you want to search for some other restaurants</br>
+**User**: Now can you show me some pizza parlors in torronto</br>
+**Bot** :</br>
+Name:</br>
+"Little Caesars Pizza"</br>
+Address:</br>
+"10720 E Southern Ave"</br>
+**User**: Tell me the address of nearby macdonald!</br>
+**Bot**: </br>
+Here's what I found:</br>
+Address :</br>
+"26540 N Scottsdale Rd"</br>
